@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+    <id value="nordic-epi-ig"/>
+    <url value="https://felleskatalogen.no/fhir/r5/ImplementationGuide/nordic-epi-ig"/>
+    <version value="0.1.0"/>
+    <name value="NordicEpiImplementationGuide"/>
+    <title value="Nordic ePI Implementation Guide"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <publisher value="Felleskatalogen"/>
+    <packageId value="nordic-epi-ig"/>
+    <fhirVersion value="5.0.0"/>
+    <dependsOn>
+        <uri value="http://hl7.org/fhir/uv/emedicinal-product-info/ImplementationGuide/hl7.fhir.uv.emedicinal-product-info"/>
+        <version value="1.0.0"/>
+    </dependsOn>
+    <definition>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/Nordic-ePI-Composition-PIL"/>
+                <name value="nordicEpiCompositionPil"/>
+            </reference>
+            <description value="Composition profile containing section codes from SPOR RMS"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-EMA-SPOR-RMS"/>
+            </reference>
+            <name value="CodeSystem for codes from EMA SPOR RMSs"/>
+            <description value="Placeholder code system with codes from EMA SPOR RMS"/>
+        </resource>
+        <page>
+            <sourceMarkdown value="index.md"/>
+            <name value="index.html"/>
+            <title value="Introduction"/>
+            <generation value="markdown"/>
+        </page>
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="special-url"/>
+            </code>
+            <value value="https://spor.ema.europa.eu/rms"/>
+        </parameter>
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="releaselabel"/>
+            </code>
+            <value value="CI Build"/>
+        </parameter>
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="copyrightyear"/>
+            </code>
+            <value value="2023+"/>
+        </parameter>
+    </definition>
+</ImplementationGuide>

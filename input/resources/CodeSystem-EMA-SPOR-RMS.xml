@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-EMA-SPOR-RMS"/>
+    <url value="https://spor.ema.europa.eu/rms"/>
+    <name value="EmaSporRms"/>
+    <title value="EMA SPOR RMS"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <description value="Placeholder code system with codes from EMA SPOR RMS"/>
+    <content value="complete"/>
+    <caseSensitive value="true"/>
+    <concept>
+        <code value="100000155538"/>
+    </concept>
+    <concept>
+        <code value="200000029894"/>
+    </concept>
+    <concept>
+        <code value="200000029895"/>
+    </concept>
+    <concept>
+        <code value="200000029896"/>
+    </concept>
+    <concept>
+        <code value="200000029897"/>
+    </concept>
+    <concept>
+        <code value="200000029898"/>
+    </concept>
+    <concept>
+        <code value="200000029899"/>
+    </concept>
+    <concept>
+        <code value="200000029900"/>
+    </concept>
+    <concept>
+        <code value="200000029901"/>
+    </concept>
+    <concept>
+        <code value="200000029902"/>
+    </concept>
+    <concept>
+        <code value="200000029903"/>
+    </concept>
+    <concept>
+        <code value="200000029904"/>
+    </concept>
+    <concept>
+        <code value="200000029905"/>
+    </concept>
+    <concept>
+        <code value="200000029906"/>
+    </concept>
+    <concept>
+        <code value="200000029907"/>
+    </concept>
+    <concept>
+        <code value="200000029908"/>
+    </concept>
+    <concept>
+        <code value="200000029909"/>
+    </concept>
+    <concept>
+        <code value="200000029910"/>
+    </concept>
+    <concept>
+        <code value="200000029911"/>
+    </concept>
+    <concept>
+        <code value="200000029912"/>
+    </concept>
+    <concept>
+        <code value="200000029913"/>
+    </concept>
+    <concept>
+        <code value="200000029914"/>
+    </concept>
+    <concept>
+        <code value="200000029915"/>
+    </concept>
+    <concept>
+        <code value="200000029916"/>
+    </concept>
+    <concept>
+        <code value="200000029917"/>
+    </concept>
+    <concept>
+        <code value="200000029918"/>
+    </concept>
+    <concept>
+        <code value="200000029919"/>
+    </concept>
+    <concept>
+        <code value="200000029920"/>
+    </concept>
+    <concept>
+        <code value="200000029921"/>
+    </concept>
+</CodeSystem>

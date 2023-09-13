@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="Nordic-ePI-Composition-PIL"/>
+    <url value="https://felleskatalogen.no/fhir/r5/StructureDefinition/Nordic-ePI-Composition-PIL"/>
+    <name value="NordicEpiCompositionPil"/>
+    <title value="Nordic ePI Composition PIL"/>
+    <status value="draft"/>
+    <fhirVersion value="5.0.0"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Composition"/>
+    <baseDefinition value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+    <derivation value="constraint"/>
+    <differential>
+
+        <!-- Identify Composition as Package Leaflet-->
+        <element id="Composition.type">
+            <path value="Composition.type"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="100000155538"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
+        <!-- Wrapper section -->
+        <element>
+            <path value="Composition.section"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="code"/>
+                </discriminator>
+                <rules value="closed"/>
+            </slicing>
+        </element>
+
+        <element id="Composition.section:sectionWrapper">
+            <path value="Composition.section"/>
+            <sliceName value="sectionWrapper"/>
+        </element>
+        <element id="Composition.section:sectionWrapper.code">
+            <path value="Composition.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029894"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
+        <element>
+            <path value="Composition.section.section"/>
+            <sliceName value="sectionWrapper"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="code"/>
+                </discriminator>
+                <rules value="closed"/>
+            </slicing>
+        </element>
+        <element id="Composition.section:sectionWrapper.section:section1">
+            <path value="Composition.section.section"/>
+            <sliceName value="section1"/>
+        </element>
+        <element id="Composition.section:sectionWrapper.section:section1.code">
+            <path value="Composition.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029895"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section:sectionWrapper.section:section2">
+            <path value="Composition.section.section"/>
+            <sliceName value="section2"/>
+        </element>
+        <element id="Composition.section:sectionWrapper.section:section2.code">
+            <path value="Composition.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029896"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element>
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section2"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="code"/>
+                </discriminator>
+                <rules value="closed"/>
+            </slicing>
+        </element>
+        <element id="Composition.section:sectionWrapper.section:section2.section:section21">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section21"/>
+        </element>
+        <element id="Composition.section:sectionWrapper.section:section2.section:section21.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029897"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section:sectionWrapper.section:section2.section:section22">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section22"/>
+        </element>
+        <element id="Composition.section:sectionWrapper.section:section2.section:section22.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029898"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section:sectionWrapper.section:section3">
+            <path value="Composition.section.section"/>
+            <sliceName value="section3"/>
+        </element>
+        <element id="Composition.section:sectionWrapper.section:section2.code">
+            <path value="Composition.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029905"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
+    </differential>
+</StructureDefinition>
