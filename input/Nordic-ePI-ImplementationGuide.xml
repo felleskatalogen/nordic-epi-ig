@@ -29,6 +29,21 @@
             <name value="CodeSystem for codes from EMA SPOR RMSs"/>
             <description value="Placeholder code system with codes from EMA SPOR RMS"/>
         </resource>
+        <!-- Examples: Norway -->
+        <resource>
+            <reference>
+                <reference value="Composition/Composition-Norway-1"/>
+            </reference>
+            <name value="Example Norwegian ePI"/>
+            <description value="Example Norwegian Composition"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="MedicinalProductDefinition/MPD-Norway-1"/>
+            </reference>
+            <name value="Example Norwegian MPD"/>
+            <description value="Example Norwegian MPD"/>
+        </resource>
         <page>
             <sourceMarkdown value="index.md"/>
             <name value="index.html"/>
@@ -41,6 +56,13 @@
                 <code value="special-url"/>
             </code>
             <value value="https://spor.ema.europa.eu/rms"/>
+        </parameter>
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="special-url"/>
+            </code>
+            <value value="https://gravitatehealth.eu/section"/>
         </parameter>
         <parameter>
             <code>

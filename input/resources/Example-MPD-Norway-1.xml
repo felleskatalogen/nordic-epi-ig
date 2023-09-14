@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MedicinalProductDefinition xmlns="http://hl7.org/fhir">
+   <id value="MPD-Norway-1"/>
+   <identifier>
+      <system value="http://legemiddelverket.no/FEST/LegemiddelMerkevareID"/>
+      <value value="ID_12345678-ABCD-ABCD-ABCD-12345678ABCD"/>
+   </identifier>
+   <name>
+      <productName value="Demo Medicinal Product"/>
+   </name>
+</MedicinalProductDefinition>

@@ -24,7 +24,7 @@
             </patternCodeableConcept>
         </element>
 
-        <!-- Wrapper section -->
+        <!-- Level 0 Slicing -->
         <element>
             <path value="Composition.section"/>
             <slicing>
@@ -36,11 +36,12 @@
             </slicing>
         </element>
 
-        <element id="Composition.section:sectionWrapper">
+        <!-- Level 0 Section QRD Package Leaflet -->
+        <element id="Composition.section:sectionPackageLeaflet">
             <path value="Composition.section"/>
-            <sliceName value="sectionWrapper"/>
+            <sliceName value="sectionPackageLeaflet"/>
         </element>
-        <element id="Composition.section:sectionWrapper.code">
+        <element id="Composition.section:sectionPackageLeaflet.code">
             <path value="Composition.section.code"/>
             <patternCodeableConcept>
                 <coding>
@@ -50,9 +51,11 @@
             </patternCodeableConcept>
         </element>
 
+        <!-- Level 1 Slicing -->
         <element>
             <path value="Composition.section.section"/>
-            <sliceName value="sectionWrapper"/>
+            <!-- Slicing is defined inside the sectionPackageLeaflet slice -->
+            <sliceName value="sectionPackageLeaflet"/>
             <slicing>
                 <discriminator>
                     <type value="value"/>
@@ -61,11 +64,43 @@
                 <rules value="closed"/>
             </slicing>
         </element>
-        <element id="Composition.section:sectionWrapper.section:section1">
+
+        <!-- Level 1 Section GH 'Rules' -->
+        <element id="Composition.section:sectionPackageLeaflet.section:ghrules">
+            <path value="Composition.section.section"/>
+            <sliceName value="ghrules"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:ghrules.code">
+            <path value="Composition.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://gravitatehealth.eu/section"/>
+                    <code value="rules"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
+        <!-- Level 1 Section GH 'ToC' -->
+        <element id="Composition.section:sectionPackageLeaflet.section:ghtoc">
+            <path value="Composition.section.section"/>
+            <sliceName value="ghtoc"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:ghtoc.code">
+            <path value="Composition.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://gravitatehealth.eu/section"/>
+                    <code value="toc"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
+        <!-- Level 1 Section QRD 1 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section1">
             <path value="Composition.section.section"/>
             <sliceName value="section1"/>
         </element>
-        <element id="Composition.section:sectionWrapper.section:section1.code">
+        <element id="Composition.section:sectionPackageLeaflet.section:section1.code">
             <path value="Composition.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
@@ -74,11 +109,13 @@
                 </coding>
             </patternCodeableConcept>
         </element>
-        <element id="Composition.section:sectionWrapper.section:section2">
+
+        <!-- Level 1 Section QRD 2 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section2">
             <path value="Composition.section.section"/>
             <sliceName value="section2"/>
         </element>
-        <element id="Composition.section:sectionWrapper.section:section2.code">
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.code">
             <path value="Composition.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
@@ -87,22 +124,23 @@
                 </coding>
             </patternCodeableConcept>
         </element>
+        <!-- Level 2 Slicing -->
         <element>
             <path value="Composition.section.section.section"/>
-            <sliceName value="section2"/>
             <slicing>
                 <discriminator>
                     <type value="value"/>
                     <path value="code"/>
                 </discriminator>
-                <rules value="closed"/>
+                <rules value="open"/>
             </slicing>
         </element>
-        <element id="Composition.section:sectionWrapper.section:section2.section:section21">
+        <!-- Level 2 Section QRD 2.1 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section21">
             <path value="Composition.section.section.section"/>
             <sliceName value="section21"/>
         </element>
-        <element id="Composition.section:sectionWrapper.section:section2.section:section21.code">
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section21.code">
             <path value="Composition.section.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
@@ -111,11 +149,12 @@
                 </coding>
             </patternCodeableConcept>
         </element>
-        <element id="Composition.section:sectionWrapper.section:section2.section:section22">
+        <!-- Level 2 Section QRD 2.2 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section22">
             <path value="Composition.section.section.section"/>
             <sliceName value="section22"/>
         </element>
-        <element id="Composition.section:sectionWrapper.section:section2.section:section22.code">
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section22.code">
             <path value="Composition.section.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
@@ -124,16 +163,147 @@
                 </coding>
             </patternCodeableConcept>
         </element>
-        <element id="Composition.section:sectionWrapper.section:section3">
+        <!-- Level 2 Section QRD 2.3 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section23">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section23"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section23.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029899"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 2.4 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section24">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section24"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section24.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029900"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 2.5 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section25">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section25"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section25.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029901"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 2.6 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section26">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section26"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section26.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029902"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 2.7 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section27">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section27"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section27.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029903"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 2.8 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section28">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section28"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:section28.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029904"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
+        <!-- Level 1 Section QRD 3 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section3">
             <path value="Composition.section.section"/>
             <sliceName value="section3"/>
         </element>
-        <element id="Composition.section:sectionWrapper.section:section2.code">
+        <element id="Composition.section:sectionPackageLeaflet.section:section3.code">
             <path value="Composition.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
                     <system value="https://spor.ema.europa.eu/rms"/>
                     <code value="200000029905"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
+        <!-- Level 1 Section QRD 4 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section4">
+            <path value="Composition.section.section"/>
+            <sliceName value="section4"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section4.code">
+            <path value="Composition.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029910"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
+        <!-- Level 1 Section QRD 5 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section5">
+            <path value="Composition.section.section"/>
+            <sliceName value="section5"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section5.code">
+            <path value="Composition.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029913"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
+        <!-- Level 1 Section QRD 6 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section6">
+            <path value="Composition.section.section"/>
+            <sliceName value="section6"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.code">
+            <path value="Composition.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <code value="200000029914"/>
                 </coding>
             </patternCodeableConcept>
         </element>

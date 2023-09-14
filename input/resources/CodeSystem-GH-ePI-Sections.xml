@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-GH-ePI-Sections"/>
+    <url value="https://gravitatehealth.eu/section"/>
+    <name value="GhEpiSections"/>
+    <title value="GH ePI Sections"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <description value="Placeholder code system with extensions to codes from EMA SPOR RMS"/>
+    <content value="complete"/>
+    <caseSensitive value="true"/>
+    <concept>
+        <code value="rules"/>
+    </concept>
+    <concept>
+        <code value="toc"/>
+    </concept>
+</CodeSystem>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composition xmlns="http://hl7.org/fhir">
+   <id value="Composition-Norway-1"/>
+   <meta>
+      <profile value="https://felleskatalogen.no/fhir/r5/StructureDefinition/Nordic-ePI-Composition-PIL"/>
+   </meta>
+   <language value="no"/>
+   <identifier>
+      <system value="https://felleskatalogen.no/vsid"/>
+      <value value="546487"/>
+   </identifier>
+   <status value="final"/>
+   <type>
+      <coding>
+         <system value="https://spor.ema.europa.eu/rms"/>
+         <code value="100000155538"/>
+      </coding>
+   </type>
+   <subject>
+      <reference value="MedicinalProductDefinition/MPD-Norway-1"/>
+   </subject>
+   <date value="2023-05-19"/>
+   <author>
+      <identifier>
+         <system value="https://gravitatehealth.eu/organization"/>
+         <value value="felleskatalogen"/>
+      </identifier>
+   </author>
+   <title value="Example Composition Norway MPD1"/>
+   <section>
+      <title value="Pakningsvedlegg: Informasjon til pasienten"/>
+      <code>
+         <coding>
+            <system value="https://spor.ema.europa.eu/rms"/>
+            <code value="200000029894"/>
+         </coding>
+      </code>
+      <text>
+         <status value="additional"/>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <h1>Pakningsvedlegg: Informasjon til pasienten</h1>
+         </div>
+      </text>
+      <section>
+         <title value="Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg."/>
+         <code>
+            <coding>
+               <system value="https://gravitatehealth.eu/section"/>
+               <code value="rules"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.</h2>
+               <div class="paragraph">
+                  <ul>
+                     <li>Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.</li>
+                     <li>Spør lege eller apotek hvis du har flere spørsmål eller trenger mer informasjon.</li>
+                     <li>Dette legemidlet er skrevet ut kun til deg. Ikke gi det videre til andre. Det kan skade dem, selv om de har symptomer på sykdom som ligner dine.</li>
+                     <li>Kontakt lege eller apotek dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt i pakningsvedlegget. Se avsnitt 4.</li>
+                  </ul>
+               </div>
+            </div>
+         </text>
+      </section>
+      <section>
+         <title value="I dette pakningsvedlegget finner du informasjon om:"/>
+         <code>
+            <coding>
+               <system value="https://gravitatehealth.eu/section"/>
+               <code value="toc"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>I dette pakningsvedlegget finner du informasjon om:</h2>
+               <div class="paragraph">
+                  <ol>
+                     <li>Hva MPD1 er og hva det brukes mot</li>
+                     <li>Hva du må vite før du bruker MPD1</li>
+                     <li>Hvordan du bruker MPD1</li>
+                     <li>Mulige bivirkninger</li>
+                     <li>Hvordan du oppbevarer MPD1</li>
+                     <li>Innholdet i pakningen og ytterligere informasjon</li>
+                  </ol>
+               </div>
+            </div>
+         </text>
+      </section>
+      <section>
+         <title value="1. Hva MPD1 er og hva det brukes mot"/>
+         <code>
+            <coding>
+               <system value="https://spor.ema.europa.eu/rms"/>
+               <code value="200000029895"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>1. Hva MPD1 er og hva det brukes mot</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+         </text>
+      </section>
+      <section>
+         <title value="2. Hva du må vite før du bruker MPD1"/>
+         <code>
+            <coding>
+               <system value="https://spor.ema.europa.eu/rms"/>
+               <code value="200000029896"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>2. Hva du må vite før du bruker MPD1</h2>
+            </div>
+         </text>
+         <section>
+            <title value="Bruk ikke MPD1"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029897"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Bruk ikke MPD1</h3>
+                  <div class="paragraph">
+                     <ul>
+                        <li>Diam vel quam elementum pulvinar etiam non.</li>
+                        <li>Sollicitudin ac orci phasellus egestas tellus.</li>
+                     </ul>
+                  </div>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Advarsler og forsiktighetsregler"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029898"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Advarsler og forsiktighetsregler</h3>
+                  <p>Diam donec adipiscing tristique risus nec feugiat in fermentum posuere. Mauris vitae ultricies leo integer malesuada nunc vel risus.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Barn og ungdom"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029899"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Barn og ungdom</h3>
+                  <p>Interdum velit laoreet id donec ultrices tincidunt arcu non. Commodo odio aenean sed adipiscing.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Andre legemidler og MPD1"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029900"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Andre legemidler og MPD1</h3>
+                  <p>Blandit aliquam etiam erat velit scelerisque. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Inntak av MPD1 sammen med mat, drikke og alkohol"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029901"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Inntak av MPD1 sammen med mat, drikke og alkohol</h3>
+                  <p>In nulla posuere sollicitudin aliquam ultrices sagittis. In arcu cursus euismod quis.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Graviditet og amming"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029902"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Graviditet og amming</h3>
+                  <p>Tellus id interdum velit laoreet id donec ultrices. Neque aliquam vestibulum morbi blandit.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Kjøring og bruk av maskiner"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029903"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Kjøring og bruk av maskiner</h3>
+                  <p>A erat nam at lectus urna duis. Et tortor consequat id porta nibh venenatis. Nec feugiat in fermentum posuere urna nec tincidunt praesent.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="MPD1 inneholder melkesukker (laktose)"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029904"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>MPD1 inneholder melkesukker (laktose)</h3>
+                  <p>Faucibus purus in massa tempor nec. Netus et malesuada fames ac turpis egestas sed tempus urna.</p>
+               </div>
+            </text>
+         </section>
+      </section>
+      <section>
+         <title value="3. Hvordan du bruker MPD1"/>
+         <code>
+            <coding>
+               <system value="https://spor.ema.europa.eu/rms"/>
+               <code value="200000029905"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>3. Hvordan du bruker MPD1</h2>
+               <p>In aliquam sem fringilla ut morbi tincidunt. In dictum non consectetur a erat nam.</p>
+            </div>
+         </text>
+         <section>
+            <title value="Dersom du tar for mye av MPD1"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029907"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Dersom du tar for mye av MPD1</h3>
+                  <p>Nulla porttitor massa id neque aliquam vestibulum. Nulla pharetra diam sit amet nisl suscipit. Faucibus in ornare quam viverra orci.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Dersom du har glemt å ta MPD1"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029908"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Dersom du har glemt å ta MPD1</h3>
+                  <p>Faucibus nisl tincidunt eget nullam non nisi est sit. Eget nulla facilisi etiam dignissim diam quis.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Dersom du avbryter behandling med MPD1"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029909"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Dersom du avbryter behandling med MPD1</h3>
+                  <p>Turpis egestas sed tempus urna et pharetra pharetra. At tellus at urna condimentum mattis.</p>
+               </div>
+            </text>
+         </section>
+      </section>
+      <section>
+         <title value="4. Mulige bivirkninger"/>
+         <code>
+            <coding>
+               <system value="https://spor.ema.europa.eu/rms"/>
+               <code value="200000029910"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>4. Mulige bivirkninger</h2>
+               <p>Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Elit sed vulputate mi sit. Etiam dignissim diam quis enim. Vitae et leo duis ut.</p>
+            </div>
+         </text>
+         <section>
+            <title value="Melding av bivirkninger"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029912"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Melding av bivirkninger</h3>
+                  <p>Kontakt lege, apotek eller sykepleier dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt i pakningsvedlegget. Du kan også melde fra om bivirkninger direkte via meldeskjema som finnes på nettsiden til Statens legemiddelverk: <a href="https://www.legemiddelverket.no/pasientmelding" title="www.legemiddelverket.no/pasientmelding">www.legemiddelverket.no/pasientmelding</a>. Ved å melde fra om bivirkninger bidrar du med informasjon om sikkerheten ved bruk av dette legemidlet.</p>
+               </div>
+            </text>
+         </section>
+      </section>
+      <section>
+         <title value="5. Hvordan du oppbevarer MPD1"/>
+         <code>
+            <coding>
+               <system value="https://spor.ema.europa.eu/rms"/>
+               <code value="200000029913"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>5. Hvordan du oppbevarer MPD1</h2>
+               <p>Proin sagittis nisl rhoncus mattis rhoncus. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa.</p>
+            </div>
+         </text>
+      </section>
+      <section>
+         <title value="6. Innholdet i pakningen og ytterligere informasjon"/>
+         <code>
+            <coding>
+               <system value="https://spor.ema.europa.eu/rms"/>
+               <code value="200000029914"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>6. Innholdet i pakningen og ytterligere informasjon</h2>
+            </div>
+         </text>
+         <section>
+            <title value="Sammensetning av MPD1"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029915"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Sammensetning av MPD1</h3>
+                  <p>Quisque sagittis purus sit amet. Massa placerat duis ultricies lacus sed turpis tincidunt.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Hvordan MPD1 ser ut og innholdet i pakningen"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029916"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Hvordan MPD1 ser ut og innholdet i pakningen</h3>
+                  <p>At imperdiet dui accumsan sit amet nulla facilisi morbi. Interdum posuere lorem ipsum dolor sit amet.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Innehaver av markedsføringstillatelsen"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029917"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Innehaver av markedsføringstillatelsen</h3>
+                  <p>Eget nunc lobortis mattis aliquam faucibus purus in.</p>
+                  <h4>Tilvirker</h4>
+                  <p>Eu augue ut lectus arcu bibendum at varius.</p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value="Dette pakningsvedlegget ble sist oppdatert 26.03.2023"/>
+            <code>
+               <coding>
+                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <code value="200000029919"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3>Dette pakningsvedlegget ble sist oppdatert 26.03.2023</h3>
+               </div>
+            </text>
+         </section>
+      </section>
+   </section>
+</Composition>
