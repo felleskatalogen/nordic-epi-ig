@@ -1,1 +1,4 @@
 == Suppressed Messages ==
+
+# Section headings from EMA SPOR RMS
+The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk

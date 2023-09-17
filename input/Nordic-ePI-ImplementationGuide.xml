@@ -22,12 +22,20 @@
             </reference>
             <description value="Composition profile containing section codes from SPOR RMS"/>
         </resource>
+        <!-- CodeSystem -->
         <resource>
             <reference>
                 <reference value="CodeSystem/CodeSystem-EMA-SPOR-RMS"/>
             </reference>
-            <name value="CodeSystem for codes from EMA SPOR RMSs"/>
+            <name value="CodeSystem: SPOR RMS section headers"/>
             <description value="Placeholder code system with codes from EMA SPOR RMS"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/CodeSystem-GH-ePI-Sections"/>
+            </reference>
+            <name value="CodeSystem: GH ePI section headers"/>
+            <description value="Additional codes for sections that are not coded in SPOR RMS"/>
         </resource>
         <!-- Examples: Norway -->
         <resource>

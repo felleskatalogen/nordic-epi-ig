@@ -3,7 +3,7 @@
     <id value="CodeSystem-EMA-SPOR-RMS"/>
     <url value="https://spor.ema.europa.eu/rms"/>
     <name value="EmaSporRms"/>
-    <title value="EMA SPOR RMS"/>
+    <title value="SPOR RMS section headers"/>
     <status value="draft"/>
     <experimental value="true"/>
     <description value="Placeholder code system with codes from EMA SPOR RMS"/>
@@ -11,89 +11,321 @@
     <caseSensitive value="true"/>
     <concept>
         <code value="100000155538"/>
+        <designation>
+            <language value="en"/>
+            <value value="Package Leaflet"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Pakningsvedlegg"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029894"/>
+        <designation>
+            <language value="en"/>
+            <value value="PACKAGE LEAFLET"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="PAKNINGSVEDLEGG"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029895"/>
+        <designation>
+            <language value="en"/>
+            <value value="1. What X is and what it is used for"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="1. Hva X er og hva det brukes mot"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029896"/>
+        <designation>
+            <language value="en"/>
+            <value value="2. What you need to know before you &lt;take&gt; &lt;use&gt; X"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="2. Hva du må vite før du bruker X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029897"/>
+        <designation>
+            <language value="en"/>
+            <value value="Do not &lt;take&gt; &lt;use&gt; X"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Bruk ikke X&lt;:&gt;"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029898"/>
+        <designation>
+            <language value="en"/>
+            <value value="Warnings and precautions"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Advarsler og forsiktighetsregler"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029899"/>
+        <designation>
+            <language value="en"/>
+            <value value="Children &lt;and adolescents&gt;"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Barn &lt;og ungdom&gt;"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029900"/>
+        <designation>
+            <language value="en"/>
+            <value value="Other medicines and X"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Andre legemidler og X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029901"/>
+        <designation>
+            <language value="en"/>
+            <value value="X with &lt;food&gt; &lt;and&gt; &lt;,&gt; &lt;drink&gt; &lt;and&gt; &lt;alcohol&gt;"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Inntak av X sammen med &lt;mat&gt; &lt;og&gt; &lt;,&gt; &lt;drikke&gt; &lt;og&gt; &lt;alkohol&gt;"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029902"/>
+        <designation>
+            <language value="en"/>
+            <value value="Pregnancy &lt;and&gt; &lt;,&gt; breast-feeding &lt;and fertility&gt;"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Graviditet &lt;og&gt; &lt;,&gt; amming &lt;og fertilitet&gt;"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029903"/>
+        <designation>
+            <language value="en"/>
+            <value value="Driving and using machines"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Kjøring og bruk av maskiner"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029904"/>
+        <designation>
+            <language value="en"/>
+            <value value="X contains {name the excipient(s)}"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="X inneholder {navn på hjelpestoff(er)}"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029905"/>
+        <designation>
+            <language value="en"/>
+            <value value="3. How to &lt;take&gt; &lt;use&gt; X"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="3. Hvordan du bruker X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029906"/>
+        <designation>
+            <language value="en"/>
+            <value value="Use in children &lt;and adolescents&gt;"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Bruk hos barn &lt;og ungdom&gt;"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029907"/>
+        <designation>
+            <language value="en"/>
+            <value value="If you &lt;take&gt; &lt;use&gt; more X than you should"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Dersom du tar for mye av X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029908"/>
+        <designation>
+            <language value="en"/>
+            <value value="If you forget to &lt;take&gt; &lt;use&gt; X"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Dersom du har glemt å ta X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029909"/>
+        <designation>
+            <language value="en"/>
+            <value value="If you stop &lt;taking&gt; &lt;using&gt; X"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Dersom du avbryter behandling med X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029910"/>
+        <designation>
+            <language value="en"/>
+            <value value="4. Possible side effects"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4. Mulige bivirkninger"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029911"/>
+        <designation>
+            <language value="en"/>
+            <value value="Additional side effects in children &lt;and adolescents&gt;"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Bivirkninger som kan forekomme hos barn &lt;og ungdom&gt;"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029912"/>
+        <designation>
+            <language value="en"/>
+            <value value="Reporting of side effects"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Melding av bivirkninger"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029913"/>
+        <designation>
+            <language value="en"/>
+            <value value="5. How to store X"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="5. Hvordan du oppbevarer X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029914"/>
+        <designation>
+            <language value="en"/>
+            <value value="6. Contents of the pack and other information"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="6. Innholdet i pakningen og ytterligere informasjon"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029915"/>
+        <designation>
+            <language value="en"/>
+            <value value="What X contains"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Sammensetning av X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029916"/>
+        <designation>
+            <language value="en"/>
+            <value value="What X looks like and contents of the pack"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Hvordan X ser ut og innholdet i pakningen"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029917"/>
+        <designation>
+            <language value="en"/>
+            <value value="Marketing Authorisation Holder and Manufacturer"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Innehaver av markedsføringstillatelsen og tilvirker"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029918"/>
+        <designation>
+            <language value="en"/>
+            <value value="This medicine is authorised in the Member States of the European Economic Area &lt;and in the United Kingdom (Northern Ireland)&gt; under the following names:"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Dette legemidlet er godkjent i medlemsstatene i Det europeiske økonomiske samarbeidsområde &gt;og i Storbritannia (Nord-Irland)&gt; med følgende navn:"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029919"/>
+        <designation>
+            <language value="en"/>
+            <value value="This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;."/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Dette pakningsvedlegget ble sist oppdatert &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}&gt;."/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029920"/>
+        <designation>
+            <language value="en"/>
+            <value value="Other sources of information"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Andre informasjonskilder"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029921"/>
+        <designation>
+            <language value="en"/>
+            <value value="The following information is intended for healthcare professionals only:"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Påfølgende informasjon er bare beregnet på helsepersonell:"/>
+        </designation>
     </concept>
 </CodeSystem>

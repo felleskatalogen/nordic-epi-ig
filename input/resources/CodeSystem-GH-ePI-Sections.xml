@@ -3,16 +3,18 @@
     <id value="CodeSystem-GH-ePI-Sections"/>
     <url value="https://gravitatehealth.eu/section"/>
     <name value="GhEpiSections"/>
-    <title value="GH ePI Sections"/>
+    <title value="GH ePI section headers"/>
     <status value="draft"/>
     <experimental value="true"/>
-    <description value="Placeholder code system with extensions to codes from EMA SPOR RMS"/>
+    <description value="Additional codes for sections that are not coded in SPOR RMS"/>
     <content value="complete"/>
     <caseSensitive value="true"/>
     <concept>
         <code value="rules"/>
+        <display value="Read all of this leaflet carefully"/>
     </concept>
     <concept>
         <code value="toc"/>
+        <display value="What is in this leaflet"/>
     </concept>
 </CodeSystem>
