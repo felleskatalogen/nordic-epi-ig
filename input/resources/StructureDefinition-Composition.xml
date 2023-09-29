@@ -18,7 +18,7 @@
             <path value="Composition.type"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
                     <code value="100000155538"/>
                 </coding>
             </patternCodeableConcept>
@@ -45,7 +45,7 @@
             <path value="Composition.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029894"/>
                 </coding>
             </patternCodeableConcept>
@@ -104,7 +104,7 @@
             <path value="Composition.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029895"/>
                 </coding>
             </patternCodeableConcept>
@@ -119,7 +119,7 @@
             <path value="Composition.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029896"/>
                 </coding>
             </patternCodeableConcept>
@@ -144,7 +144,7 @@
             <path value="Composition.section.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029897"/>
                 </coding>
             </patternCodeableConcept>
@@ -158,7 +158,7 @@
             <path value="Composition.section.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029898"/>
                 </coding>
             </patternCodeableConcept>
@@ -172,7 +172,7 @@
             <path value="Composition.section.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029899"/>
                 </coding>
             </patternCodeableConcept>
@@ -186,7 +186,7 @@
             <path value="Composition.section.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029900"/>
                 </coding>
             </patternCodeableConcept>
@@ -200,7 +200,7 @@
             <path value="Composition.section.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029901"/>
                 </coding>
             </patternCodeableConcept>
@@ -214,7 +214,7 @@
             <path value="Composition.section.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029902"/>
                 </coding>
             </patternCodeableConcept>
@@ -228,7 +228,7 @@
             <path value="Composition.section.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029903"/>
                 </coding>
             </patternCodeableConcept>
@@ -242,7 +242,7 @@
             <path value="Composition.section.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029904"/>
                 </coding>
             </patternCodeableConcept>
@@ -257,7 +257,7 @@
             <path value="Composition.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029905"/>
                 </coding>
             </patternCodeableConcept>
@@ -272,7 +272,7 @@
             <path value="Composition.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029910"/>
                 </coding>
             </patternCodeableConcept>
@@ -287,7 +287,7 @@
             <path value="Composition.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029913"/>
                 </coding>
             </patternCodeableConcept>
@@ -302,7 +302,7 @@
             <path value="Composition.section.section.code"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="https://spor.ema.europa.eu/rms"/>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029914"/>
                 </coding>
             </patternCodeableConcept>

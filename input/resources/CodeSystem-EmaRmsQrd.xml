@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-    <id value="CodeSystem-EMA-SPOR-RMS"/>
-    <url value="https://spor.ema.europa.eu/rms"/>
-    <name value="EmaSporRms"/>
-    <title value="SPOR RMS section headers"/>
+    <id value="EmaRmsQrd"/>
+    <url value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+    <name value="EmaRmsQrd"/>
+    <title value="Quality Review of Documents Product Information Template"/>
     <status value="draft"/>
     <experimental value="true"/>
-    <description value="Placeholder code system with codes from EMA SPOR RMS"/>
+    <description value="Quality Review of Documents Product Information Template"/>
     <content value="complete"/>
     <caseSensitive value="true"/>
-    <concept>
-        <code value="100000155538"/>
-        <designation>
-            <language value="en"/>
-            <value value="Package Leaflet"/>
-        </designation>
-        <designation>
-            <language value="no"/>
-            <value value="Pakningsvedlegg"/>
-        </designation>
-    </concept>
     <concept>
         <code value="200000029894"/>
         <designation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="EmaRmsDocTypes"/>
+    <url value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
+    <name value="EmaRmsDocTypes"/>
+    <title value="Product Information Document Type"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <description value="Product Information Document Type"/>
+    <content value="complete"/>
+    <caseSensitive value="true"/>
+    <concept>
+        <code value="100000155538"/>
+        <designation>
+            <language value="en"/>
+            <value value="Package Leaflet"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Pakningsvedlegg"/>
+        </designation>
+    </concept>
+</CodeSystem>

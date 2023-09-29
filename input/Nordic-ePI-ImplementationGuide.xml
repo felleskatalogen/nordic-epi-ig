@@ -25,14 +25,21 @@
         <!-- CodeSystem -->
         <resource>
             <reference>
-                <reference value="CodeSystem/CodeSystem-EMA-SPOR-RMS"/>
+                <reference value="CodeSystem/EmaRmsDocTypes"/>
             </reference>
-            <name value="CodeSystem: SPOR RMS section headers"/>
-            <description value="Placeholder code system with codes from EMA SPOR RMS"/>
+            <name value="CodeSystem: Product Information Document Type"/>
+            <description value="Product Information Document Type"/>
         </resource>
         <resource>
             <reference>
-                <reference value="CodeSystem/CodeSystem-GH-ePI-Sections"/>
+                <reference value="CodeSystem/EmaRmsQrd"/>
+            </reference>
+            <name value="CodeSystem: Quality Review of Documents Product Information Template"/>
+            <description value="Quality Review of Documents Product Information Template"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/GhEpiSections"/>
             </reference>
             <name value="CodeSystem: GH ePI section headers"/>
             <description value="Additional codes for sections that are not coded in SPOR RMS"/>
@@ -52,6 +59,7 @@
             <name value="Example Norwegian MPD"/>
             <description value="Example Norwegian MPD"/>
         </resource>
+        <!-- Pages -->
         <page>
             <sourceMarkdown value="index.md"/>
             <name value="index.html"/>
@@ -64,6 +72,20 @@
                 <code value="special-url"/>
             </code>
             <value value="https://spor.ema.europa.eu/rms"/>
+        </parameter>
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="special-url"/>
+            </code>
+            <value value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
+        </parameter>
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="special-url"/>
+            </code>
+            <value value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
         </parameter>
         <parameter>
             <code>

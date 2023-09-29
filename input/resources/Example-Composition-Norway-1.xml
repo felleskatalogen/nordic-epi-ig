@@ -12,7 +12,7 @@
    <status value="final"/>
    <type>
       <coding>
-         <system value="https://spor.ema.europa.eu/rms"/>
+         <system value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
          <code value="100000155538"/>
       </coding>
    </type>
@@ -31,7 +31,7 @@
       <title value="Pakningsvedlegg: Informasjon til pasienten"/>
       <code>
          <coding>
-            <system value="https://spor.ema.europa.eu/rms"/>
+            <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
             <code value="200000029894"/>
          </coding>
       </code>
@@ -93,7 +93,7 @@
          <title value="1. Hva MPD1 er og hva det brukes mot"/>
          <code>
             <coding>
-               <system value="https://spor.ema.europa.eu/rms"/>
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                <code value="200000029895"/>
             </coding>
          </code>
@@ -109,7 +109,7 @@
          <title value="2. Hva du må vite før du bruker MPD1"/>
          <code>
             <coding>
-               <system value="https://spor.ema.europa.eu/rms"/>
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                <code value="200000029896"/>
             </coding>
          </code>
@@ -123,7 +123,7 @@
             <title value="Bruk ikke MPD1"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029897"/>
                </coding>
             </code>
@@ -144,7 +144,7 @@
             <title value="Advarsler og forsiktighetsregler"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029898"/>
                </coding>
             </code>
@@ -160,7 +160,7 @@
             <title value="Barn og ungdom"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029899"/>
                </coding>
             </code>
@@ -176,7 +176,7 @@
             <title value="Andre legemidler og MPD1"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029900"/>
                </coding>
             </code>
@@ -192,7 +192,7 @@
             <title value="Inntak av MPD1 sammen med mat, drikke og alkohol"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029901"/>
                </coding>
             </code>
@@ -208,7 +208,7 @@
             <title value="Graviditet og amming"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029902"/>
                </coding>
             </code>
@@ -224,7 +224,7 @@
             <title value="Kjøring og bruk av maskiner"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029903"/>
                </coding>
             </code>
@@ -240,7 +240,7 @@
             <title value="MPD1 inneholder melkesukker (laktose)"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029904"/>
                </coding>
             </code>
@@ -257,7 +257,7 @@
          <title value="3. Hvordan du bruker MPD1"/>
          <code>
             <coding>
-               <system value="https://spor.ema.europa.eu/rms"/>
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                <code value="200000029905"/>
             </coding>
          </code>
@@ -272,7 +272,7 @@
             <title value="Dersom du tar for mye av MPD1"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029907"/>
                </coding>
             </code>
@@ -288,7 +288,7 @@
             <title value="Dersom du har glemt å ta MPD1"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029908"/>
                </coding>
             </code>
@@ -304,7 +304,7 @@
             <title value="Dersom du avbryter behandling med MPD1"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029909"/>
                </coding>
             </code>
@@ -321,7 +321,7 @@
          <title value="4. Mulige bivirkninger"/>
          <code>
             <coding>
-               <system value="https://spor.ema.europa.eu/rms"/>
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                <code value="200000029910"/>
             </coding>
          </code>
@@ -336,7 +336,7 @@
             <title value="Melding av bivirkninger"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029912"/>
                </coding>
             </code>
@@ -353,7 +353,7 @@
          <title value="5. Hvordan du oppbevarer MPD1"/>
          <code>
             <coding>
-               <system value="https://spor.ema.europa.eu/rms"/>
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                <code value="200000029913"/>
             </coding>
          </code>
@@ -369,7 +369,7 @@
          <title value="6. Innholdet i pakningen og ytterligere informasjon"/>
          <code>
             <coding>
-               <system value="https://spor.ema.europa.eu/rms"/>
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                <code value="200000029914"/>
             </coding>
          </code>
@@ -383,7 +383,7 @@
             <title value="Sammensetning av MPD1"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029915"/>
                </coding>
             </code>
@@ -399,7 +399,7 @@
             <title value="Hvordan MPD1 ser ut og innholdet i pakningen"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029916"/>
                </coding>
             </code>
@@ -415,7 +415,7 @@
             <title value="Innehaver av markedsføringstillatelsen"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029917"/>
                </coding>
             </code>
@@ -433,7 +433,7 @@
             <title value="Dette pakningsvedlegget ble sist oppdatert 26.03.2023"/>
             <code>
                <coding>
-                  <system value="https://spor.ema.europa.eu/rms"/>
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                   <code value="200000029919"/>
                </coding>
             </code>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-    <id value="CodeSystem-GH-ePI-Sections"/>
+    <id value="GhEpiSections"/>
     <url value="https://gravitatehealth.eu/section"/>
     <name value="GhEpiSections"/>
     <title value="GH ePI section headers"/>
@@ -9,6 +9,13 @@
     <description value="Additional codes for sections that are not coded in SPOR RMS"/>
     <content value="complete"/>
     <caseSensitive value="true"/>
+    <concept>
+        <code value="additional-monitoring"/>
+        <display value="This medicinal product is subject to additional monitoring"/>
+    </concept>
+    <concept>
+        <code value="patient-info"/>
+    </concept>
     <concept>
         <code value="rules"/>
         <display value="Read all of this leaflet carefully"/>
