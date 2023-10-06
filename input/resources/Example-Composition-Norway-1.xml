@@ -2,7 +2,7 @@
 <Composition xmlns="http://hl7.org/fhir">
    <id value="Composition-Norway-1"/>
    <meta>
-      <profile value="https://felleskatalogen.no/fhir/r5/StructureDefinition/Nordic-ePI-Composition-PIL"/>
+      <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"/>
    </meta>
    <language value="no"/>
    <identifier>

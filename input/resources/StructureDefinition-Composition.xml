@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="Nordic-ePI-Composition-PIL"/>
-    <url value="https://felleskatalogen.no/fhir/r5/StructureDefinition/Nordic-ePI-Composition-PIL"/>
+    <url value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"/>
     <name value="NordicEpiCompositionPil"/>
     <title value="Nordic ePI Composition PIL"/>
     <status value="draft"/>

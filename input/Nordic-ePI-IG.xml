@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
     <id value="nordic-epi-ig"/>
-    <url value="https://felleskatalogen.no/fhir/r5/ImplementationGuide/nordic-epi-ig"/>
+    <url value="https://gravitatehealth.eu/fhir/nordic-epi-ig/ImplementationGuide/nordic-epi-ig"/>
     <version value="0.1.0"/>
-    <name value="NordicEpiImplementationGuide"/>
-    <title value="Nordic ePI Implementation Guide"/>
+    <name value="NordicEpiIg"/>
+    <title value="Nordic ePI IG"/>
     <status value="draft"/>
     <experimental value="true"/>
-    <publisher value="Felleskatalogen"/>
+    <publisher value="Nordic Health Information Partnership"/>
     <packageId value="nordic-epi-ig"/>
     <fhirVersion value="5.0.0"/>
     <dependsOn>
@@ -15,50 +15,55 @@
         <version value="1.0.0"/>
     </dependsOn>
     <definition>
+
+        <!-- Profiles -->
         <resource>
             <reference>
                 <reference value="StructureDefinition/Nordic-ePI-Composition-PIL"/>
-                <name value="nordicEpiCompositionPil"/>
             </reference>
-            <description value="Composition profile containing section codes from SPOR RMS"/>
+            <name value="Profile: Composition for Nordic ePI PIL"/>
+            <description value="Composition profile containing section definitions coded with SPOR RMS and Gravitate Health code systems"/>
         </resource>
-        <!-- CodeSystem -->
+
+        <!-- CodeSystems -->
         <resource>
             <reference>
                 <reference value="CodeSystem/EmaRmsDocTypes"/>
             </reference>
             <name value="CodeSystem: Product Information Document Type"/>
-            <description value="Product Information Document Type"/>
+            <description value="Definition of codes from SPOR RMS list Product Information Document Type"/>
         </resource>
         <resource>
             <reference>
                 <reference value="CodeSystem/EmaRmsQrd"/>
             </reference>
             <name value="CodeSystem: Quality Review of Documents Product Information Template"/>
-            <description value="Quality Review of Documents Product Information Template"/>
+            <description value="Definition of codes from SPOR RMS list Quality Review of Documents Product Information Template"/>
         </resource>
         <resource>
             <reference>
                 <reference value="CodeSystem/GhEpiSections"/>
             </reference>
-            <name value="CodeSystem: GH ePI section headers"/>
-            <description value="Additional codes for sections that are not coded in SPOR RMS"/>
+            <name value="CodeSystem: GH ePI sections"/>
+            <description value="Codes for sections that are not defined in SPOR RMS"/>
         </resource>
+
         <!-- Examples: Norway -->
         <resource>
             <reference>
                 <reference value="Composition/Composition-Norway-1"/>
             </reference>
-            <name value="Example Norwegian ePI"/>
-            <description value="Example Norwegian Composition"/>
+            <name value="Example: Composition: Norwegian ePI for MPD1"/>
+            <description value="Example: Composition: Norwegian ePI for MPD1"/>
         </resource>
         <resource>
             <reference>
                 <reference value="MedicinalProductDefinition/MPD-Norway-1"/>
             </reference>
-            <name value="Example Norwegian MPD"/>
-            <description value="Example Norwegian MPD"/>
+            <name value="Example: MedicinalProductDefinition: MPD1"/>
+            <description value="Example: MedicinalProductDefinition: MPD1"/>
         </resource>
+
         <!-- Pages -->
         <page>
             <sourceMarkdown value="index.md"/>
@@ -66,6 +71,8 @@
             <title value="Introduction"/>
             <generation value="markdown"/>
         </page>
+
+        <!-- Parameters -->
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
@@ -87,6 +94,7 @@
             </code>
             <value value="https://gravitatehealth.eu/section"/>
         </parameter>
+
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
@@ -101,5 +109,6 @@
             </code>
             <value value="2023+"/>
         </parameter>
+
     </definition>
 </ImplementationGuide>
