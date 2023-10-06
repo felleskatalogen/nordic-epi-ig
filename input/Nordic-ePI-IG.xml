@@ -70,6 +70,18 @@
             <name value="index.html"/>
             <title value="Introduction"/>
             <generation value="markdown"/>
+            <page>
+                <sourceMarkdown value="profiles.md"/>
+                <name value="profiles.html"/>
+                <title value="Profiles"/>
+                <generation value="markdown"/>
+            </page>
+            <page>
+                <sourceMarkdown value="codesystems.md"/>
+                <name value="codesystems.html"/>
+                <title value="Code Systems"/>
+                <generation value="markdown"/>
+            </page>
         </page>
 
         <!-- Parameters -->
