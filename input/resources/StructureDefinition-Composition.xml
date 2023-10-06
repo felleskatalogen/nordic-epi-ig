@@ -25,7 +25,7 @@
         </element>
 
         <!-- Level 0 Slicing -->
-        <element>
+        <element id="Composition.section">
             <path value="Composition.section"/>
             <slicing>
                 <discriminator>
@@ -40,6 +40,8 @@
         <element id="Composition.section:sectionPackageLeaflet">
             <path value="Composition.section"/>
             <sliceName value="sectionPackageLeaflet"/>
+            <min value="1"/>
+            <max value="1"/>
         </element>
         <element id="Composition.section:sectionPackageLeaflet.code">
             <path value="Composition.section.code"/>
@@ -52,10 +54,8 @@
         </element>
 
         <!-- Level 1 Slicing -->
-        <element>
+        <element id="Composition.section:sectionPackageLeaflet.section">
             <path value="Composition.section.section"/>
-            <!-- Slicing is defined inside the sectionPackageLeaflet slice -->
-            <sliceName value="sectionPackageLeaflet"/>
             <slicing>
                 <discriminator>
                     <type value="value"/>
@@ -125,7 +125,7 @@
             </patternCodeableConcept>
         </element>
         <!-- Level 2 Slicing -->
-        <element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section">
             <path value="Composition.section.section.section"/>
             <slicing>
                 <discriminator>
