@@ -65,6 +65,21 @@
             </slicing>
         </element>
 
+        <!-- Level 1 Section GH 'Additional monitoring' -->
+        <element id="Composition.section:sectionPackageLeaflet.section:additionalmonitoring">
+            <path value="Composition.section.section"/>
+            <sliceName value="additionalmonitoring"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:additionalmonitoring.code">
+            <path value="Composition.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://gravitatehealth.eu/section"/>
+                    <code value="additional-monitoring"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
         <!-- Level 1 Section GH 'Rules' -->
         <element id="Composition.section:sectionPackageLeaflet.section:ghrules">
             <path value="Composition.section.section"/>
