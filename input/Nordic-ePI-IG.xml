@@ -51,10 +51,17 @@
         <!-- Examples: Norway -->
         <resource>
             <reference>
-                <reference value="Composition/Composition-Norway-1"/>
+                <reference value="Composition/Composition-Level-1-Norwegian"/>
             </reference>
-            <name value="Example: Composition: Norwegian ePI for MPD1"/>
-            <description value="Example: Composition: Norwegian ePI for MPD1"/>
+            <name value="Example: Composition: Norwegian ePI Level 1"/>
+            <description value="Example: Composition: Norwegian ePI with level 1 sections for MPD1"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Composition/Composition-Level-2-Norwegian"/>
+            </reference>
+            <name value="Example: Composition: Norwegian ePI Level 2"/>
+            <description value="Example: Composition: Norwegian ePI with level 1 and 2 sections for MPD1"/>
         </resource>
         <resource>
             <reference>
@@ -85,6 +92,14 @@
         </page>
 
         <!-- Parameters -->
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="path-resource"/>
+            </code>
+            <value value="input/resources/examples/*"/>
+        </parameter>
+
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>

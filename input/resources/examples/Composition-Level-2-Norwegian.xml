@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Composition xmlns="http://hl7.org/fhir">
-   <id value="Composition-Norway-1"/>
+   <id value="Composition-Level-2-Norwegian"/>
    <meta>
       <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"/>
    </meta>
@@ -53,14 +53,12 @@
             <status value="additional"/>
             <div xmlns="http://www.w3.org/1999/xhtml">
                <h2>Les nøye gjennom dette pakningsvedlegget før du begynner å bruke dette legemidlet. Det inneholder informasjon som er viktig for deg.</h2>
-               <div class="paragraph">
-                  <ul>
-                     <li>Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.</li>
-                     <li>Spør lege eller apotek hvis du har flere spørsmål eller trenger mer informasjon.</li>
-                     <li>Dette legemidlet er skrevet ut kun til deg. Ikke gi det videre til andre. Det kan skade dem, selv om de har symptomer på sykdom som ligner dine.</li>
-                     <li>Kontakt lege eller apotek dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt i pakningsvedlegget. Se avsnitt 4.</li>
-                  </ul>
-               </div>
+               <ul>
+                  <li>Ta vare på dette pakningsvedlegget. Du kan få behov for å lese det igjen.</li>
+                  <li>Spør lege eller apotek hvis du har flere spørsmål eller trenger mer informasjon.</li>
+                  <li>Dette legemidlet er skrevet ut kun til deg. Ikke gi det videre til andre. Det kan skade dem, selv om de har symptomer på sykdom som ligner dine.</li>
+                  <li>Kontakt lege eller apotek dersom du opplever bivirkninger. Dette gjelder også bivirkninger som ikke er nevnt i pakningsvedlegget. Se avsnitt 4.</li>
+               </ul>
             </div>
          </text>
       </section>
@@ -76,16 +74,14 @@
             <status value="additional"/>
             <div xmlns="http://www.w3.org/1999/xhtml">
                <h2>I dette pakningsvedlegget finner du informasjon om:</h2>
-               <div class="paragraph">
-                  <ol>
-                     <li>Hva MPD1 er og hva det brukes mot</li>
-                     <li>Hva du må vite før du bruker MPD1</li>
-                     <li>Hvordan du bruker MPD1</li>
-                     <li>Mulige bivirkninger</li>
-                     <li>Hvordan du oppbevarer MPD1</li>
-                     <li>Innholdet i pakningen og ytterligere informasjon</li>
-                  </ol>
-               </div>
+               <ol>
+                  <li>Hva MPD1 er og hva det brukes mot</li>
+                  <li>Hva du må vite før du bruker MPD1</li>
+                  <li>Hvordan du bruker MPD1</li>
+                  <li>Mulige bivirkninger</li>
+                  <li>Hvordan du oppbevarer MPD1</li>
+                  <li>Innholdet i pakningen og ytterligere informasjon</li>
+               </ol>
             </div>
          </text>
       </section>
@@ -131,12 +127,10 @@
                <status value="additional"/>
                <div xmlns="http://www.w3.org/1999/xhtml">
                   <h3>Bruk ikke MPD1</h3>
-                  <div class="paragraph">
-                     <ul>
-                        <li>Diam vel quam elementum pulvinar etiam non.</li>
-                        <li>Sollicitudin ac orci phasellus egestas tellus.</li>
-                     </ul>
-                  </div>
+                  <ul>
+                     <li>Diam vel quam elementum pulvinar etiam non.</li>
+                     <li>Sollicitudin ac orci phasellus egestas tellus.</li>
+                  </ul>
                </div>
             </text>
          </section>
