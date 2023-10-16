@@ -277,6 +277,73 @@
                 </coding>
             </patternCodeableConcept>
         </element>
+        <!-- Level 2 Slicing -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section3.section">
+            <path value="Composition.section.section.section"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="code"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <!-- Level 2 Section QRD 3.1 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section3.section:section31">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section31"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section3.section:section31.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029906"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 3.2 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section3.section:section32">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section32"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section3.section:section32.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029907"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 3.3 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section3.section:section33">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section33"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section3.section:section33.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029908"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 3.4 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section3.section:section34">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section34"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section3.section:section34.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029909"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
 
         <!-- Level 1 Section QRD 4 -->
         <element id="Composition.section:sectionPackageLeaflet.section:section4">
@@ -289,6 +356,45 @@
                 <coding>
                     <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029910"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Slicing -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section4.section">
+            <path value="Composition.section.section.section"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="code"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <!-- Level 2 Section QRD 4.1 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section4.section:section41">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section41"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section4.section:section41.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029911"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 4.2 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section4.section:section42">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section42"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section4.section:section42.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029912"/>
                 </coding>
             </patternCodeableConcept>
         </element>
@@ -319,6 +425,115 @@
                 <coding>
                     <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
                     <code value="200000029914"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Slicing -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section">
+            <path value="Composition.section.section.section"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="code"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <!-- Level 2 Section QRD 6.1 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section61">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section61"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section61.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029915"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 6.2 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section62">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section62"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section62.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029916"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 6.3 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section63">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section63"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section63.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029917"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 6.4 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section64">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section64"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section64.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029918"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 6.5 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section65">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section65"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section65.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029919"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 6.6 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section66">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section66"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section66.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029920"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <!-- Level 2 Section QRD 6.7 -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section67">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="section67"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:section67.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                    <code value="200000029921"/>
                 </coding>
             </patternCodeableConcept>
         </element>
