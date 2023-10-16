@@ -537,6 +537,20 @@
                 </coding>
             </patternCodeableConcept>
         </element>
+        <!-- Level 2 Section GH 'Patient information' -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:patientinfo">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="patientinfo"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section6.section:patientinfo.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://gravitatehealth.eu/section"/>
+                    <code value="patient-info"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
 
     </differential>
 </StructureDefinition>
