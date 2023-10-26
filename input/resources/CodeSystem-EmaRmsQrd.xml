@@ -19,6 +19,10 @@
             <language value="no"/>
             <value value="PAKNINGSVEDLEGG"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="BIPACKSEDEL"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029895"/>
@@ -29,6 +33,10 @@
         <designation>
             <language value="no"/>
             <value value="1. Hva X er og hva det brukes mot"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="1. Vad X är och vad det används för"/>
         </designation>
     </concept>
     <concept>
@@ -41,6 +49,10 @@
             <language value="no"/>
             <value value="2. Hva du må vite før du bruker X"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="2. Vad du behöver veta innan du &lt;tar&gt; &lt;använder&gt; X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029897"/>
@@ -51,6 +63,10 @@
         <designation>
             <language value="no"/>
             <value value="Bruk ikke X&lt;:&gt;"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="&lt;Ta&gt; &lt;använd&gt; inte X&lt;:&gt;"/>
         </designation>
     </concept>
     <concept>
@@ -63,6 +79,10 @@
             <language value="no"/>
             <value value="Advarsler og forsiktighetsregler"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Varningar och försiktighet"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029899"/>
@@ -73,6 +93,10 @@
         <designation>
             <language value="no"/>
             <value value="Barn &lt;og ungdom&gt;"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Barn &lt;och ungdomar&gt;"/>
         </designation>
     </concept>
     <concept>
@@ -85,6 +109,10 @@
             <language value="no"/>
             <value value="Andre legemidler og X"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Andra läkemedel och X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029901"/>
@@ -95,6 +123,10 @@
         <designation>
             <language value="no"/>
             <value value="Inntak av X sammen med &lt;mat&gt; &lt;og&gt; &lt;,&gt; &lt;drikke&gt; &lt;og&gt; &lt;alkohol&gt;"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="X med &lt;mat&gt; &lt;och&gt; &lt;,&gt; &lt;dryck&gt; &lt;och&gt; &lt;alkohol&gt;"/>
         </designation>
     </concept>
     <concept>
@@ -107,6 +139,10 @@
             <language value="no"/>
             <value value="Graviditet &lt;og&gt; &lt;,&gt; amming &lt;og fertilitet&gt;"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Graviditet &lt;och&gt; &lt;,&gt; amning &lt;och fertilitet&gt;"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029903"/>
@@ -117,6 +153,10 @@
         <designation>
             <language value="no"/>
             <value value="Kjøring og bruk av maskiner"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Körförmåga och användning av maskiner"/>
         </designation>
     </concept>
     <concept>
@@ -129,6 +169,10 @@
             <language value="no"/>
             <value value="X inneholder {navn på hjelpestoff(er)}"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="X innehåller {namn på hjälpämne(n)}"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029905"/>
@@ -139,6 +183,10 @@
         <designation>
             <language value="no"/>
             <value value="3. Hvordan du bruker X"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="3. Hur du &lt;tar&gt; &lt;använder&gt; X"/>
         </designation>
     </concept>
     <concept>
@@ -151,6 +199,10 @@
             <language value="no"/>
             <value value="Bruk hos barn &lt;og ungdom&gt;"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Användning för barn &lt;och ungdomar&gt;"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029907"/>
@@ -161,6 +213,10 @@
         <designation>
             <language value="no"/>
             <value value="Dersom du tar for mye av X"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Om du &lt;har tagit&gt; &lt;använt&gt; för stor mängd av X"/>
         </designation>
     </concept>
     <concept>
@@ -173,6 +229,10 @@
             <language value="no"/>
             <value value="Dersom du har glemt å ta X"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Om du har glömt att &lt;ta&gt; &lt;använda&gt; X"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029909"/>
@@ -183,6 +243,10 @@
         <designation>
             <language value="no"/>
             <value value="Dersom du avbryter behandling med X"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Om du slutar att &lt;ta&gt; &lt;använda&gt; X"/>
         </designation>
     </concept>
     <concept>
@@ -195,6 +259,10 @@
             <language value="no"/>
             <value value="4. Mulige bivirkninger"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="4. Eventuella biverkningar"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029911"/>
@@ -205,6 +273,10 @@
         <designation>
             <language value="no"/>
             <value value="Bivirkninger som kan forekomme hos barn &lt;og ungdom&gt;"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Ytterligare biverkningar hos barn &lt;och ungdomar&gt;"/>
         </designation>
     </concept>
     <concept>
@@ -217,6 +289,10 @@
             <language value="no"/>
             <value value="Melding av bivirkninger"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Rapportering av biverkningar"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029913"/>
@@ -227,6 +303,10 @@
         <designation>
             <language value="no"/>
             <value value="5. Hvordan du oppbevarer X"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="5. Hur X ska förvaras"/>
         </designation>
     </concept>
     <concept>
@@ -239,6 +319,10 @@
             <language value="no"/>
             <value value="6. Innholdet i pakningen og ytterligere informasjon"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="6. Förpackningens innehåll och övriga upplysningar"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029915"/>
@@ -249,6 +333,10 @@
         <designation>
             <language value="no"/>
             <value value="Sammensetning av X"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Innehållsdeklaration"/>
         </designation>
     </concept>
     <concept>
@@ -261,6 +349,10 @@
             <language value="no"/>
             <value value="Hvordan X ser ut og innholdet i pakningen"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Läkemedlets utseende och förpackningsstorlekar"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029917"/>
@@ -271,6 +363,10 @@
         <designation>
             <language value="no"/>
             <value value="Innehaver av markedsføringstillatelsen og tilvirker"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Innehavare av godkännande för försäljning och tillverkare"/>
         </designation>
     </concept>
     <concept>
@@ -283,6 +379,10 @@
             <language value="no"/>
             <value value="Dette legemidlet er godkjent i medlemsstatene i Det europeiske økonomiske samarbeidsområde &gt;og i Storbritannia (Nord-Irland)&gt; med følgende navn:"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Detta läkemedel är godkänt inom Europeiska ekonomiska samarbetsområdet &gt;och i Förenade kungariket (Nordirland)&gt; under namnen:"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029919"/>
@@ -293,6 +393,10 @@
         <designation>
             <language value="no"/>
             <value value="Dette pakningsvedlegget ble sist oppdatert &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}&gt;."/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Denna bipacksedel ändrades senast &lt;{MM/ÅÅÅÅ}&gt;&lt;{månad ÅÅÅÅ}&gt;."/>
         </designation>
     </concept>
     <concept>
@@ -305,6 +409,10 @@
             <language value="no"/>
             <value value="Andre informasjonskilder"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Övriga informationskällor"/>
+        </designation>
     </concept>
     <concept>
         <code value="200000029921"/>
@@ -315,6 +423,10 @@
         <designation>
             <language value="no"/>
             <value value="Påfølgende informasjon er bare beregnet på helsepersonell:"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Följande uppgifter är endast avsedda för hälso- och sjukvårdspersonal:"/>
         </designation>
     </concept>
 </CodeSystem>
