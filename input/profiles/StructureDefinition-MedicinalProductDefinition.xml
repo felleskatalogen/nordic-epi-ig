@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="Nordic-ePI-MedicinalProductDefinition"/>
+    <url value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"/>
+    <name value="NordicEpiMedicinalProductDefinition"/>
+    <title value="Nordic ePI MedicinalProductDefinition"/>
+    <status value="draft"/>
+    <fhirVersion value="5.0.0"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="MedicinalProductDefinition"/>
+    <baseDefinition value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+    <derivation value="constraint"/>
+    <differential>
+
+        <!-- Identifier Slicing -->
+        <element id="MedicinalProductDefinition.identifier">
+            <path value="MedicinalProductDefinition.identifier"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="system"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+
+        <!-- Danish national MedicinalProductDefinition identifier -->
+        <!-- TODO
+        <element id="MedicinalProductDefinition.identifier:danishMpdId">
+            <path value="MedicinalProductDefinition.identifier"/>
+            <sliceName value="danishMpdId"/>
+        </element>
+        <element id="MedicinalProductDefinition.identifier:danishMpdId.system">
+            <path value="MedicinalProductDefinition.identifier.system"/>
+            <patternUri value="http://"/>
+        </element>
+        -->
+
+        <!-- Finnish national MedicinalProductDefinition identifier -->
+        <!-- TODO
+        <element id="MedicinalProductDefinition.identifier:finnishMpdId">
+            <path value="MedicinalProductDefinition.identifier"/>
+            <sliceName value="finnishMpdId"/>
+        </element>
+        <element id="MedicinalProductDefinition.identifier:finnishMpdId.system">
+            <path value="MedicinalProductDefinition.identifier.system"/>
+            <patternUri value="http://"/>
+        </element>
+        -->
+
+        <!-- Norwegian national MedicinalProductDefinition identifier -->
+        <element id="MedicinalProductDefinition.identifier:norwegianMpdId">
+            <path value="MedicinalProductDefinition.identifier"/>
+            <sliceName value="norwegianMpdId"/>
+        </element>
+        <element id="MedicinalProductDefinition.identifier:norwegianMpdId.system">
+            <path value="MedicinalProductDefinition.identifier.system"/>
+            <patternUri value="http://legemiddelverket.no/FEST/LegemiddelMerkevareID"/>
+        </element>
+
+        <!-- Swedish national MedicinalProductDefinition identifier -->
+        <!-- TODO
+        <element id="MedicinalProductDefinition.identifier:swedishMpdId">
+            <path value="MedicinalProductDefinition.identifier"/>
+            <sliceName value="swedishMpdId"/>
+        </element>
+        <element id="MedicinalProductDefinition.identifier:swedishMpdId.system">
+            <path value="MedicinalProductDefinition.identifier.system"/>
+            <patternUri value="http://fass.se/LIF/nplId"/>
+        </element>
+        -->
+
+    </differential>
+</StructureDefinition>

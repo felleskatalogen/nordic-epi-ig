@@ -24,6 +24,20 @@
             <name value="Profile: Composition for Nordic ePI PIL"/>
             <description value="Composition profile containing section definitions coded with SPOR RMS and Gravitate Health code systems"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/Nordic-ePI-MedicinalProductDefinition"/>
+            </reference>
+            <name value="Profile: MedicinalProductDefinition for Nordic ePI"/>
+            <description value="MedicinalProductDefinition profile containing national product identifiers"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/Nordic-ePI-PackagedProductDefinition"/>
+            </reference>
+            <name value="Profile: PackagedProductDefinition for Nordic ePI"/>
+            <description value="PackagedProductDefinition profile containing national product identifiers and article number definitions"/>
+        </resource>
 
         <!-- CodeSystems -->
         <resource>
@@ -70,6 +84,13 @@
             <name value="Example: MedicinalProductDefinition: MPD1"/>
             <description value="Example: MedicinalProductDefinition: MPD1"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="PackagedProductDefinition/PPD-Norway-1"/>
+            </reference>
+            <name value="Example: PackagedProductDefinition: PPD1"/>
+            <description value="Example: PackagedProductDefinition: PPD1"/>
+        </resource>
 
         <!-- Pages -->
         <page>
@@ -92,6 +113,27 @@
         </page>
 
         <!-- Parameters -->
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="no-narrative"/>
+            </code>
+            <value value="Composition/*"/>
+        </parameter>
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="no-narrative"/>
+            </code>
+            <value value="MedicinalProductDefinition/*"/>
+        </parameter>
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="no-narrative"/>
+            </code>
+            <value value="PackagedProductDefinition/*"/>
+        </parameter>
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>

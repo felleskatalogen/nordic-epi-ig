@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="Nordic-ePI-PackagedProductDefinition"/>
+    <url value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"/>
+    <name value="NordicEpiPackagedProductDefinition"/>
+    <title value="Nordic ePI PackagedProductDefinition"/>
+    <status value="draft"/>
+    <fhirVersion value="5.0.0"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="PackagedProductDefinition"/>
+    <baseDefinition value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+    <derivation value="constraint"/>
+    <differential>
+
+        <!-- Identifier Slicing -->
+        <element id="PackagedProductDefinition.identifier">
+            <path value="PackagedProductDefinition.identifier"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="system"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+
+        <!-- Danish national PackagedProductDefinition identifier -->
+        <!-- TODO
+        <element id="PackagedProductDefinition.identifier:danishPpdId">
+            <path value="PackagedProductDefinition.identifier"/>
+            <sliceName value="danishPpdId"/>
+        </element>
+        <element id="PackagedProductDefinition.identifier:danishPpdId.system">
+            <path value="PackagedProductDefinition.identifier.system"/>
+            <patternUri value="http://"/>
+        </element>
+        -->
+
+        <!-- Finnish national PackagedProductDefinition identifier -->
+        <!-- TODO
+        <element id="PackagedProductDefinition.identifier:finnishPpdId">
+            <path value="PackagedProductDefinition.identifier"/>
+            <sliceName value="finnishPpdId"/>
+        </element>
+        <element id="PackagedProductDefinition.identifier:finnishPpdId.system">
+            <path value="PackagedProductDefinition.identifier.system"/>
+            <patternUri value="http://"/>
+        </element>
+        -->
+
+        <!-- Norwegian national PackagedProductDefinition identifier -->
+        <element id="PackagedProductDefinition.identifier:norwegianPpdId">
+            <path value="PackagedProductDefinition.identifier"/>
+            <sliceName value="norwegianPpdId"/>
+        </element>
+        <element id="PackagedProductDefinition.identifier:norwegianPpdId.system">
+            <path value="PackagedProductDefinition.identifier.system"/>
+            <patternUri value="http://legemiddelverket.no/FEST/LegemiddelPakningID"/>
+        </element>
+        <!-- Norwegian definition of Nordic Article Number -->
+        <element id="PackagedProductDefinition.identifier:norwegianVnr">
+            <path value="PackagedProductDefinition.identifier"/>
+            <sliceName value="norwegianVnr"/>
+        </element>
+        <element id="PackagedProductDefinition.identifier:norwegianVnr.system">
+            <path value="PackagedProductDefinition.identifier.system"/>
+            <patternUri value="https://farmalogg.no/varenummer"/>
+        </element>
+
+        <!-- Swedish national PackagedProductDefinition identifier -->
+        <!-- TODO
+        <element id="PackagedProductDefinition.identifier:swedishPpdId">
+            <path value="PackagedProductDefinition.identifier"/>
+            <sliceName value="swedishPpdId"/>
+        </element>
+        <element id="PackagedProductDefinition.identifier:swedishPpdId.system">
+            <path value="PackagedProductDefinition.identifier.system"/>
+            <patternUri value="http://fass.se/LIF/nplPackId"/>
+        </element>
+        -->
+
+    </differential>
+</StructureDefinition>

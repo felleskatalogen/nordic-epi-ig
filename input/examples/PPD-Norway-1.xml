@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+    <id value="PPD-Norway-1"/>
+    <meta>
+        <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-PackagedProductDefinition"/>
+    </meta>
+    <identifier>
+        <system value="http://legemiddelverket.no/FEST/LegemiddelPakningID"/>
+        <value value="ID_12345678-ABCD-ABCD-ABCD-12345678ABCD"/>
+    </identifier>
+    <identifier>
+        <system value="https://farmalogg.no/varenummer"/>
+        <value value="123456"/>
+    </identifier>
+    <name value="PPD1"/>
+    <packageFor>
+        <reference value="MedicinalProductDefinition/MPD-Norway-1"/>
+    </packageFor>
+</PackagedProductDefinition>
