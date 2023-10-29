@@ -1,14 +1,5 @@
-Definition of purpose and scope. This implementation guide is scoped to European examples and follows EMA's section headings. The purpose is to support the creation of examples for the Gravitate Health scenarios. To provide a computable definition against which examples can be validated.
+This implementation guide defines the profiles and code systems that are used by the Nordic ePI project. The profiles build on those developed by the [Electronic Medicinal Product Information (ePI) FHIR Implementation Guide](http://hl7.org/fhir/uv/emedicinal-product-info/) and extends them with features that are specific to Europe and the Nordic countries. The profiles follow applicable conventions from EMA's ePI project and the code systems give preference to values defined in SPOR RMS.
 
-Relation to other implementation guides:
-* Builds on Vulcan ePI
-* Provides structure definition for GH content IG
+The purpose of the Nordic ePI project is to supply ePIs of existing products to support the testing scenarios of Gravitate Health. This implementation guides provides the structure definitions, computable definitions against which those examples can be validated, but itself does not contain any actual product data. The examples that are provided contain only placeholder text that does not fall under copyright protection.
 
-This implementation guide defines the ePI structure, but has only made-up examples because of copyright.
-Each pharmaceutical company owns their package leaflets. This implementation gude can be published without any such consideration.
-
-Sections:
-
-* Profiles
-* Code systems
-* Examples
+The [Profiles](profiles.html) section describes the structure of the ePI documents and the attached structured resources for medicinal products and packages. The [code systems](codesystems.html) used in these definitions is discussed in a separate section. See the [Table of Contents](toc.html) for a comprehensive list of all definitions and examples.
