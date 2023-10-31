@@ -2,11 +2,16 @@ Profiles define additional requirements that the resources must satisfy for the 
 
 ### The ePI documents
 
-The Composition resource contains the actual text of the ePI document. The document structure is therefore defined as a profile on the Composition resource: [Composition for Nordic ePI PIL](StructureDefinition-Nordic-ePI-Composition-PIL.html). The profile lists the allowed sections and their relations to each other.
+In the Nordic countries, the structure of package leaflets follows the QRD template from EMA.
 
-An ePI document consists of a Composition and the structured medication resources it refers to, contained in a single Bundle.
+TODO: link to a general discussion of the template on EMA's website
+TODO: country-specific details, if necessary, with links to exact template versions or national guidelines
 
-The codes for teh document type and the sections are defined in code systems that are described in more detail on the [code systems](codesystems.html) page.
+In terms of FHIR resources, the actual text of the ePI document in contained in Composition resources. The document structure is therefore defined as a profile on the Composition resource: [Composition for Nordic ePI PIL](StructureDefinition-Nordic-ePI-Composition-PIL.html).
+
+The profile translates the QRD template to a hierarchy of sections, and binds the sections to specific codes: codes from SPOR if they are available, or custom codes created by the Nordic ePI project if necessary (link to both value sets).
+
+The composition is packaged into a Bundle resource, together with the structured medication resources it refers to, to form a FHIR document.
 
 TODO: Visual representation of the resources that make up the ePI Bundle, and their relations.
 
