@@ -3,3 +3,11 @@ This implementation guide defines the profiles and code systems that are used by
 The purpose of the Nordic ePI project is to supply ePIs of existing products to support the testing scenarios of Gravitate Health. This implementation guides provides the structure definitions, computable definitions against which those examples can be validated, but itself does not contain any actual product data. The examples that are provided contain only placeholder text that does not fall under copyright protection.
 
 The [Profiles](profiles.html) section describes the structure of the ePI documents and the attached structured resources for medicinal products and packages. The [code systems](codesystems.html) used in these definitions is discussed in a separate section. See the [Table of Contents](toc.html) for a comprehensive list of all definitions and examples.
+
+### Dependencies
+
+{% include dependency-table.xhtml %}
+
+### IP statements
+
+{% include ip-statements.xhtml %}

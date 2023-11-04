@@ -5,3 +5,6 @@ Constraint failed: dom-6: 'A resource should have narrative for robust managemen
 
 # Section headings from EMA SPOR RMS
 The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+
+# Not in use
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
