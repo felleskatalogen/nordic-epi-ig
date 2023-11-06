@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composition xmlns="http://hl7.org/fhir">
+   <id value=""/>
+   <meta>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"/>
+   </meta>
+   <language value=""/>
+   <identifier>
+      <system value=""/>
+      <value value=""/>
+   </identifier>
+   <status value="final"/>
+   <type>
+      <coding>
+         <system value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
+         <code value="100000155538"/>
+      </coding>
+   </type>
+   <subject>
+      <reference value=""/>
+   </subject>
+   <date value="YYYY-MM-DD"/>
+   <author>
+      <identifier>
+         <system value=""/>
+         <value value=""/>
+      </identifier>
+   </author>
+   <title value=""/>
+   <section>
+      <title value=""/>
+      <code>
+         <coding>
+            <!-- PACKAGE LEAFLET -->
+            <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+            <code value="200000029894"/>
+         </coding>
+      </code>
+      <text>
+         <status value="additional"/>
+         <div xmlns="http://www.w3.org/1999/xhtml">
+            <h1></h1>
+         </div>
+      </text>
+      <section>
+         <title value=""/>
+         <code>
+            <coding>
+               <system value="https://gravitatehealth.eu/section"/>
+               <code value="rules"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2></h2>
+               <ul>
+                  <li></li>
+               </ul>
+            </div>
+         </text>
+      </section>
+      <section>
+         <title value=""/>
+         <code>
+            <coding>
+               <system value="https://gravitatehealth.eu/section"/>
+               <code value="toc"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2></h2>
+               <ol>
+                  <li></li>
+               </ol>
+            </div>
+         </text>
+      </section>
+      <section>
+         <title value="1."/>
+         <code>
+            <coding>
+               <!-- 1. What X is and what it is used for -->
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+               <code value="200000029895"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>1.</h2>
+            </div>
+         </text>
+      </section>
+      <section>
+         <title value="2."/>
+         <code>
+            <coding>
+               <!-- 2. What you need to know before you <take> <use> X -->
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+               <code value="200000029896"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>2.</h2>
+            </div>
+         </text>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Do not <take> <use> X -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029897"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Warnings and precautions -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029898"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Children <and adolescents> -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029899"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Other medicines and X -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029900"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+                  <p></p>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- X with <food> <and> <,> <drink> <and> <alcohol> -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029901"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Pregnancy <and> <,> breast-feeding <and fertility> -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029902"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Driving and using machines -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029903"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- X contains {name the excipient(s)} -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029904"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+      </section>
+      <section>
+         <title value="3."/>
+         <code>
+            <coding>
+               <!-- 3. How to <take> <use> X -->
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+               <code value="200000029905"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>3.</h2>
+            </div>
+         </text>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Use in children <and adolescents> -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029906"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- If you <take> <use> more X than you should -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029907"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- If you forget to <take> <use> X -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029908"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- If you stop <taking> <using> X -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029909"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+      </section>
+      <section>
+         <title value="4."/>
+         <code>
+            <coding>
+               <!-- 4. Possible side effects -->
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+               <code value="200000029910"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>4.</h2>
+            </div>
+         </text>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Additional side effects in children <and adolescents> -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029911"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Reporting of side effects -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029912"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+      </section>
+      <section>
+         <title value="5."/>
+         <code>
+            <coding>
+               <!-- 5. How to store X -->
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+               <code value="200000029913"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>5.</h2>
+            </div>
+         </text>
+      </section>
+      <section>
+         <title value="6."/>
+         <code>
+            <coding>
+               <!-- 6. Contents of the pack and other information -->
+               <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+               <code value="200000029914"/>
+            </coding>
+         </code>
+         <text>
+            <status value="additional"/>
+            <div xmlns="http://www.w3.org/1999/xhtml">
+               <h2>6.</h2>
+            </div>
+         </text>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- What X contains -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029915"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- What X looks like and contents of the pack -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029916"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Marketing Authorisation Holder and Manufacturer -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029917"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- This medicine is authorised in the Member States of the European Economic Area <and in the United Kingdom (Northern Ireland)> under the following names: -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029918"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- This leaflet was last revised in <{MM/YYYY}><{month YYYY}>. -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029919"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- Other sources of information -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029920"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+         <section>
+            <title value=""/>
+            <code>
+               <coding>
+                  <!-- The following information is intended for healthcare professionals only: -->
+                  <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                  <code value="200000029921"/>
+               </coding>
+            </code>
+            <text>
+               <status value="additional"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h3></h3>
+               </div>
+            </text>
+         </section>
+      </section>
+   </section>
+</Composition>
