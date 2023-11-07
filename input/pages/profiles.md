@@ -2,32 +2,42 @@ Profiles define additional requirements that the resources must satisfy for the 
 
 ### The ePI documents
 
+#### Bundle
+
+A FHIR document is implemented as a Bundle resource with type 'document', with a Composition as the first item. The Bundle can include the structured medication resources that the Composition refers to.
+
+TODO: Visual representation of the resources that make up the ePI Bundle, and their relations.
+
+#### Composition
+
 In the Nordic countries, the structure of package leaflets follows the QRD template from EMA.
 
 TODO: link to a general discussion of the template on EMA's website
 TODO: country-specific details, if necessary, with links to exact template versions or national guidelines
 
-In terms of FHIR resources, the actual text of the ePI document in contained in Composition resources. The document structure is therefore defined as a profile on the Composition resource: [Composition for Nordic ePI PIL](StructureDefinition-Nordic-ePI-Composition-PIL.html).
+In terms of FHIR resources, the actual text of the documents is contained in Composition resources. The document structure is therefore defined as a profile on the Composition resource: [Composition for Nordic ePI PIL](StructureDefinition-Nordic-ePI-Composition-PIL.html).
 
-The profile translates the QRD template to a hierarchy of sections, and binds the sections to specific codes: codes from SPOR if they are available, or custom codes created by the Nordic ePI project if necessary (link to both value sets).
+The profile translates the QRD template to a hierarchy of sections, and binds the sections to specific codes: codes from SPOR if they are available, or custom codes created by the Nordic ePI project if necessary.
 
-The composition is packaged into a Bundle resource, together with the structured medication resources it refers to, to form a FHIR document.
+These code types are defined in separate CodeSystem resources:
 
-TODO: Visual representation of the resources that make up the ePI Bundle, and their relations.
+* Codes from SPOR RMS:
+  * [Document types](CodeSystem-EmaRmsDocTypes.html)
+  * [Section codes (SPOR)](CodeSystem-EmaRmsQrd.html)
+* Custom codes:
+  * [Section codes (Gravitate Health)](CodeSystem-GhEpiSections.html)
 
 ### Medicinal product definitions
 
-The documents refer to medicinal products as their subject. These medicinal products are defined by MedicinalProductDefinition and PackagedProductDefinition resources.
+Structured information about the medicinal products is included in the ePI Bundle as MedicinalProductDefinition and PackagedProductDefinition resources. Each Composition refers to one or more MedicinalProductDefinition resources from the .subject field. Each PackagedProductDefinition resource refers to a single MedicinalProductDefinition from the .packageFor field.
 
-These resources carry the identifiers that can be used to look up the ePIs.
+The implementation guide defines profiles for both MedicinalProductDefinition and PackagedProductDefinition to specify project- or region-specific properties, such as the national identifiers that are assigned to products and packages in the Nordic countries.
 
 #### MedicinalProductDefinition
 
-MedicinalProductDefinition is: TODO: non-technical definition
+The MedicinalProductDefinition resource represents a medicinal product with a single set of ingredients and physical form and strength.
 
-Profile: [PackagedProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-MedicinalProductDefinition.html)
-
-The identifiers:
+The [MedicinalProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-MedicinalProductDefinition.html) profile defines the following national identifiers:
 
 * Denmark: TODO
 * Finland: TODO
@@ -36,16 +46,16 @@ The identifiers:
 
 #### PackagedProductDefinition
 
-PackagedProductDefinition is: TODO: non-technical definition
+The PackagedProductDefinition resource represents a package of a medicinal product as it has been prepared for sale.
 
-Profile: [PackagedProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-PackagedProductDefinition.html)
+The [PackagedProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-PackagedProductDefinition.html) profile defines the following national identifiers:
 
 * National IDs:
   * Denmark: TODO
   * Finland: TODO
   * Norway: `http://legemiddelverket.no/FEST/LegemiddelPakningID`
   * Sweden: TODO
-* Nordic Article Numbers (country specific definition)
+* Nordic Article Numbers (country-specific definition)
   * Denmark: TODO
   * Finland: TODO
   * Norway: `https://farmalogg.no/varenummer`
