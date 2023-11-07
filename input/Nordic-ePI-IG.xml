@@ -92,6 +92,14 @@
             <description value="Example: PackagedProductDefinition: PPD1"/>
         </resource>
 
+        <resource>
+            <reference>
+                <reference value="Bundle/Bundle-Level-1-Norwegian"/>
+            </reference>
+            <name value="Example: Bundle: Norwegian ePI Level 1"/>
+            <description value="Example: Bundle: Norwegian ePI with level 1 sections for MPD1"/>
+        </resource>
+
         <!-- Pages -->
         <page>
             <sourceMarkdown value="index.md"/>
