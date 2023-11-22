@@ -65,6 +65,21 @@
             </slicing>
         </element>
 
+        <!-- Level 1 Section GH 'Age limitation' -->
+        <element id="Composition.section:sectionPackageLeaflet.section:ageLimitation">
+            <path value="Composition.section.section"/>
+            <sliceName value="agelimitation"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:agelimitation.code">
+            <path value="Composition.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://gravitatehealth.eu/section"/>
+                    <code value="age-limitation"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+
         <!-- Level 1 Section GH 'Additional monitoring' -->
         <element id="Composition.section:sectionPackageLeaflet.section:additionalmonitoring">
             <path value="Composition.section.section"/>

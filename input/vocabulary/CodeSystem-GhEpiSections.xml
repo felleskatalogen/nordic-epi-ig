@@ -14,6 +14,10 @@
         <display value="This medicinal product is subject to additional monitoring"/>
     </concept>
     <concept>
+        <code value="age-limitation"/>
+        <display value="Age limitation"/>
+    </concept>
+    <concept>
         <code value="patient-info"/>
     </concept>
     <concept>
