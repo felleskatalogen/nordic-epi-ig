@@ -48,6 +48,15 @@
             <patternUri value="http://"/>
         </element>
         -->
+        <!-- Finnish definition of Nordic Article Number -->
+        <element id="PackagedProductDefinition.identifier:finnishVnr">
+            <path value="PackagedProductDefinition.identifier"/>
+            <sliceName value="finnishVnr"/>
+        </element>
+        <element id="PackagedProductDefinition.identifier:finnishVnr.system">
+            <path value="PackagedProductDefinition.identifier.system"/>
+            <patternUri value="https://pharmaca.fi/vnr"/>
+        </element>
 
         <!-- Norwegian national PackagedProductDefinition identifier -->
         <element id="PackagedProductDefinition.identifier:norwegianPpdId">
