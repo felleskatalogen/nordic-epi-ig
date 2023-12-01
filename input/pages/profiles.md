@@ -57,6 +57,6 @@ The [PackagedProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-Pa
   * Sweden: TODO
 * Nordic Article Numbers (country-specific definition)
   * Denmark: TODO
-  * Finland: TODO
+  * Finland: `https://pharmaca.fi/vnr`
   * Norway: `https://farmalogg.no/varenummer`
   * Sweden: TODO
