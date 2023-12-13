@@ -8,7 +8,7 @@ The string value contains text that looks like embedded HTML tags. If this conte
 
 # See ongoing discussion at https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/Entry.20isn't.20reachable.20by.20traversing.20from.20first.20Bundle.20entry
 # PPD is linked in the oppsite direction, to MPD
-Entry 'PackagedProductDefinition/PPD-Norway-1' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+Entry 'https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/PPD-Norway-1' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
 
 # Not in use
 The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
