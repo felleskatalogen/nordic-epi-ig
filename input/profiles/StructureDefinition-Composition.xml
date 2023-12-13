@@ -359,6 +359,20 @@
                 </coding>
             </patternCodeableConcept>
         </element>
+        <!-- Level 2 Section GH 'Unspecified' -->
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:ghunspecified">
+            <path value="Composition.section.section.section"/>
+            <sliceName value="ghunspecified"/>
+        </element>
+        <element id="Composition.section:sectionPackageLeaflet.section:section2.section:ghunspecified.code">
+            <path value="Composition.section.section.section.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="https://gravitatehealth.eu/section"/>
+                    <code value="unspecified"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
 
         <!-- Level 1 Section QRD 4 -->
         <element id="Composition.section:sectionPackageLeaflet.section:section4">

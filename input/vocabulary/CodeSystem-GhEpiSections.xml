@@ -28,4 +28,8 @@
         <code value="toc"/>
         <display value="What is in this leaflet"/>
     </concept>
+    <concept>
+        <code value="unspecified"/>
+        <display value="Unspecified"/>
+    </concept>
 </CodeSystem>
