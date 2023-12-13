@@ -44,21 +44,21 @@
             <reference>
                 <reference value="CodeSystem/EmaRmsDocTypes"/>
             </reference>
-            <name value="CodeSystem: Product Information Document Type"/>
+            <name value="Product Information Document Type"/>
             <description value="Definition of codes from SPOR RMS list Product Information Document Type"/>
         </resource>
         <resource>
             <reference>
                 <reference value="CodeSystem/EmaRmsQrd"/>
             </reference>
-            <name value="CodeSystem: Quality Review of Documents Product Information Template"/>
+            <name value="Quality Review of Documents Product Information Template"/>
             <description value="Definition of codes from SPOR RMS list Quality Review of Documents Product Information Template"/>
         </resource>
         <resource>
             <reference>
                 <reference value="CodeSystem/GhEpiSections"/>
             </reference>
-            <name value="CodeSystem: GH ePI sections"/>
+            <name value="GH ePI sections"/>
             <description value="Codes for sections that are not defined in SPOR RMS"/>
         </resource>
 
