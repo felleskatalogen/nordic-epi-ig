@@ -396,7 +396,7 @@
         </designation>
         <designation>
             <language value="sv"/>
-            <value value="Denna bipacksedel ändrades senast &lt;{MM/ÅÅÅÅ}&gt;&lt;{månad ÅÅÅÅ}&gt;."/>
+            <value value="Denna bipacksedel ändrades senast &lt;{MM/ÅÅÅÅ}&gt;&lt;{månad ÅÅÅÅ}&gt;"/>
         </designation>
     </concept>
     <concept>

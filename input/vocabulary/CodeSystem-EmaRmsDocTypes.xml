@@ -19,5 +19,9 @@
             <language value="no"/>
             <value value="Pakningsvedlegg"/>
         </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Bipacksedel"/>
+        </designation>
     </concept>
 </CodeSystem>
