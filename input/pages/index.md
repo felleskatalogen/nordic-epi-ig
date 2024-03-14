@@ -1,13 +1,7 @@
-This implementation guide defines the profiles and code systems that are used by the Nordic ePI project. The profiles build on those developed in the [Electronic Medicinal Product Information (ePI) FHIR Implementation Guide](http://hl7.org/fhir/uv/emedicinal-product-info/) and extend them with features that are specific to Europe and the Nordic countries. The profiles follow applicable conventions from EMA's ePI project and the code systems give preference to codes defined in SPOR RMS.
+This implementation guide defines the profiles and code systems that are used by the Nordic FHIR ePI project. The profiles build on those developed in the [Electronic Medicinal Product Information (ePI) FHIR Implementation Guide](http://hl7.org/fhir/uv/emedicinal-product-info/) and extend them with features that are specific to Europe and the Nordic countries.
 
-The purpose of the Nordic ePI project is to supply ePIs of existing products to support the testing scenarios of Gravitate Health. This implementation guides provides the structure definitions, computable definitions against which those examples can be validated, but itself does not contain any actual product data. The examples that are provided contain only placeholder text that does not fall under copyright protection.
+The profiles follow applicable conventions from EMA's ePI project and the code systems give preference to codes defined in SPOR RMS. Profiling and the creation of examples is informed by FHIR ePIs exported from EMA's [PLM Portal](https://plm-portal.ema.europa.eu/ePIAll/) and [IDMP implementation guide](https://www.ema.europa.eu/en/human-regulatory-overview/research-development/data-medicines-iso-idmp-standards-overview/substance-product-organisation-referential-spor-master-data/substance-product-data-management-services#ema-inpage-item-12045).
+
+The purpose of the Nordic FHIR ePI project is to supply ePIs of existing products to support the testing scenarios of Gravitate Health. This implementation guides provides the structure definitions, computable definitions against which those examples can be validated, but itself does not contain any actual product data. The examples that are provided contain only placeholder text that does not fall under copyright protection.
 
 The [Profiles](profiles.html) section describes the structure of the ePI documents and the attached structured resources for medicinal products and packages. The [code systems](codesystems.html) used in these definitions are discussed in a separate section. See the [Table of Contents](toc.html) for a comprehensive list of all definitions and examples.
-
-### Dependencies
-
-{% include dependency-table.xhtml %}
-
-### IP statements
-
-{% include ip-statements.xhtml %}

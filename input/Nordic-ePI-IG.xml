@@ -118,6 +118,12 @@
                 <title value="Code Systems"/>
                 <generation value="markdown"/>
             </page>
+            <page>
+                <sourceMarkdown value="credits.md"/>
+                <name value="credits.html"/>
+                <title value="Credits"/>
+                <generation value="markdown"/>
+            </page>
         </page>
 
         <!-- Parameters -->
