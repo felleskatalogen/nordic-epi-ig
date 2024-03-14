@@ -37,7 +37,16 @@ The composition is identified as a package leaflet using a code from SPOR. This 
 
 ### MedicinalProductDefinition
 
-The MedicinalProductDefinition resource represents a medicinal product with a single set of ingredients and a specific pharmaceutical dose form and strength. Each Composition can refer to one or more MedicinalProductDefinition resources from the `.subject` field.
+The MedicinalProductDefinition resource (MPD) represents a branded medicinal product with a single set of ingredients and a specific pharmaceutical dose form and strength.
+
+The corresponding entity in the national master data files is:
+
+* Denmark: TODO DrugId?
+* Finland: TODO (Laakevalmiste?) ([Basic register](https://fimea.fi/en/databases_and_registers/basic-register-xml))
+* Norway: LegemiddelMerkevare ([FEST (Forskrivnings- og ekspedisjonsstøtte)](https://www.dmp.no/om-oss/distribusjon-av-legemiddeldata/fest))
+* Sweden: TODO (NplId?) ([NPL (Nationellt produktregister för läkemedel, NPL)](https://www.lakemedelsverket.se/sv/e-tjanster-och-hjalpmedel/substans-och-produktregister/npl))
+
+Each Composition can refer to one or more MedicinalProductDefinition resources from the `.subject` field.
 
 The [MedicinalProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-MedicinalProductDefinition.html) profile defines the following national identifiers:
 
@@ -48,7 +57,7 @@ The [MedicinalProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-M
 
 ### PackagedProductDefinition
 
-The PackagedProductDefinition resource represents a package of a medicinal product as it has been prepared for sale.
+The PackagedProductDefinition resource (PPD) represents a package of a medicinal product as it has been prepared for sale.
 
 Each PackagedProductDefinition resource refers to a single MedicinalProductDefinition from the `.packageFor` field. Several PackagedProductDefinition resources can refer to the same MedicinalProductDefinition (e.g. different package sizes of the same product).
 
