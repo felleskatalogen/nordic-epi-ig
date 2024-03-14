@@ -1,0 +1,13 @@
+{
+    "name": "nordic.epi.template",
+    "type": "fhir.template",
+    "license": "CC0-1.0",
+    "description": "Nordic ePI IG Template",
+    "author": "Felleskatalogen AS",
+    "canonical": "http://felleskatalogen/fhir/ig/nordic.epi.template",
+    "base": "fhir.base.template",
+    "dependencies": {
+        "fhir.base.template": "current"
+    },
+    "version": "0.1.0"
+}
