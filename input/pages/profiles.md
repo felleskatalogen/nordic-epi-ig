@@ -44,7 +44,7 @@ The corresponding entity in the national master data files is:
 * Denmark: TODO DrugId?
 * Finland: TODO (Laakevalmiste?) ([Basic register](https://fimea.fi/en/databases_and_registers/basic-register-xml))
 * Norway: LegemiddelMerkevare ([FEST (Forskrivnings- og ekspedisjonsstøtte)](https://www.dmp.no/om-oss/distribusjon-av-legemiddeldata/fest))
-* Sweden: TODO (NplId?) ([NPL (Nationellt produktregister för läkemedel, NPL)](https://www.lakemedelsverket.se/sv/e-tjanster-och-hjalpmedel/substans-och-produktregister/npl))
+* Sweden: medprod.nplid ([NPL (Nationellt produktregister för läkemedel, NPL)](https://www.lakemedelsverket.se/sv/e-tjanster-och-hjalpmedel/substans-och-produktregister/npl))
 
 Each Composition can refer to one or more MedicinalProductDefinition resources from the `.subject` field.
 
@@ -53,7 +53,7 @@ The [MedicinalProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-M
 * Denmark: TODO
 * Finland: TODO
 * Norway: `http://legemiddelverket.no/FEST/LegemiddelMerkevareID`
-* Sweden: TODO
+* Sweden: `http://electronichealth.se/fhir/NamingSystem/nplid`
 
 ### PackagedProductDefinition
 
@@ -67,9 +67,9 @@ The [PackagedProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-Pa
   * Denmark: TODO
   * Finland: TODO
   * Norway: `http://legemiddelverket.no/FEST/LegemiddelPakningID`
-  * Sweden: TODO
+  * Sweden: `http://electronichealth.se/fhir/NamingSystem/nplpackid`
 * Nordic Article Numbers (country-specific definition):
   * Denmark: TODO
   * Finland: `https://pharmaca.fi/vnr`
   * Norway: `https://farmalogg.no/varenummer`
-  * Sweden: TODO
+  * Sweden: `http://electronichealth.se/fhir/NamingSystem/varunr`
