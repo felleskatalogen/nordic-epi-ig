@@ -78,16 +78,22 @@
         </element>
 
         <!-- Swedish national PackagedProductDefinition identifier -->
-        <!-- TODO
+
         <element id="PackagedProductDefinition.identifier:swedishPpdId">
             <path value="PackagedProductDefinition.identifier"/>
             <sliceName value="swedishPpdId"/>
         </element>
         <element id="PackagedProductDefinition.identifier:swedishPpdId.system">
             <path value="PackagedProductDefinition.identifier.system"/>
-            <patternUri value="http://fass.se/LIF/nplPackId"/>
+            <patternUri value="http://electronichealth.se/fhir/NamingSystem/nplpackid"/>
         </element>
-        -->
-
+        <element id="PackagedProductDefinition.identifier:swedishVnr">
+            <path value="PackagedProductDefinition.identifier"/>
+            <sliceName value="swedishVnr"/>
+        </element>
+        <element id="PackagedProductDefinition.identifier:swedishVnr.system">
+            <path value="PackagedProductDefinition.identifier.system"/>
+            <patternUri value="http://electronichealth.se/fhir/NamingSystem/varunr"/>
+        </element>
     </differential>
 </StructureDefinition>

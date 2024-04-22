@@ -60,16 +60,15 @@
         </element>
 
         <!-- Swedish national MedicinalProductDefinition identifier -->
-        <!-- TODO
         <element id="MedicinalProductDefinition.identifier:swedishMpdId">
             <path value="MedicinalProductDefinition.identifier"/>
             <sliceName value="swedishMpdId"/>
         </element>
         <element id="MedicinalProductDefinition.identifier:swedishMpdId.system">
             <path value="MedicinalProductDefinition.identifier.system"/>
-            <patternUri value="http://fass.se/LIF/nplId"/>
+            <patternUri value="http://electronichealth.se/fhir/NamingSystem/nplid"/>
         </element>
-        -->
+
 
     </differential>
 </StructureDefinition>
