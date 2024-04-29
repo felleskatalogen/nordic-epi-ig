@@ -148,6 +148,7 @@
             </code>
             <value value="PackagedProductDefinition/*"/>
         </parameter>
+        <!-- Product Information Document Type -->
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
@@ -155,12 +156,29 @@
             </code>
             <value value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
         </parameter>
+        <!-- Quality Review of Documents Product Information Template -->
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
                 <code value="special-url"/>
             </code>
             <value value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+        </parameter>
+        <!-- Regulatory Entitlement Type -->
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="special-url"/>
+            </code>
+            <value value="https://spor.ema.europa.eu/v1/lists/220000000060/terms/"/>
+        </parameter>
+        <!-- Regulatory Entitlement Status -->
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="special-url"/>
+            </code>
+            <value value="https://spor.ema.europa.eu/v1/lists/100000072049/terms/"/>
         </parameter>
         <parameter>
             <code>

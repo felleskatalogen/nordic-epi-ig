@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="EmaRmsRegulatoryEntitlementStatus"/>
+    <url value="https://spor.ema.europa.eu/v1/lists/100000072049/terms/"/>
+    <name value="EmaRmsRegulatoryEntitlementStatus"/>
+    <title value="Regulatory Entitlement Status"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <description value="Regulatory Entitlement Status"/>
+    <content value="complete"/>
+    <caseSensitive value="true"/>
+    <concept>
+        <code value="100000072099"/>
+        <designation>
+            <language value="en"/>
+            <value value="Valid"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Gyldig"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Godkänd"/>
+        </designation>
+    </concept>
+</CodeSystem>
