@@ -172,6 +172,14 @@
             </code>
             <value value="https://spor.ema.europa.eu/v1/lists/220000000060/terms/"/>
         </parameter>
+        <!-- Country/Region -->
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="special-url"/>
+            </code>
+            <value value="https://spor.ema.europa.eu/v1/lists/100000000002/terms/"/>
+        </parameter>
         <!-- Regulatory Entitlement Status -->
         <parameter>
             <code>
