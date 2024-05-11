@@ -50,7 +50,7 @@ Each Composition can refer to one or more MedicinalProductDefinition resources f
 
 The [MedicinalProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-MedicinalProductDefinition.html) profile defines the following national identifiers:
 
-* Denmark: TODO
+* Denmark: `https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/`
 * Finland: TODO
 * Norway: `http://legemiddelverket.no/FEST/LegemiddelMerkevareID`
 * Sweden: `http://electronichealth.se/fhir/NamingSystem/nplid`
@@ -69,7 +69,7 @@ The [PackagedProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-Pa
   * Norway: `http://legemiddelverket.no/FEST/LegemiddelPakningID`
   * Sweden: `http://electronichealth.se/fhir/NamingSystem/nplpackid`
 * Nordic Article Numbers (country-specific definition):
-  * Denmark: TODO
+  * Denmark: `https://www.indlaegssedler.dk/varenummer`
   * Finland: `https://pharmaca.fi/vnr`
   * Norway: `https://farmalogg.no/varenummer`
   * Sweden: `http://electronichealth.se/fhir/NamingSystem/varunr`
