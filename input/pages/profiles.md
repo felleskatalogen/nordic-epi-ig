@@ -14,7 +14,7 @@ The ePI Bundle is the container of the resources that make up a FHIR ePI. The fo
 
 <img src="bundle-components.png" alt="Components and relations in an ePI Bundle" style="float: none;"/>
 
-See the [ePI Creation](http://hl7.org/fhir/uv/emedicinal-product-info/STU1/steps-to-create-epi3.html) pages in the Electronic Medicinal Product Information (ePI) FHIR Implementation Guide for a more comprehensive graph showing more structured resources that can be used to represent details about an ePI.
+See the [ePI Creation](https://hl7.org/fhir/uv/emedicinal-product-info/STU1/steps-to-create-epi3.html) pages in the Electronic Medicinal Product Information (ePI) FHIR Implementation Guide for a more comprehensive graph showing more structured resources that can be used to represent details about an ePI.
 
 ### Composition
 

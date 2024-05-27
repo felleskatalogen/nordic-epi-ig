@@ -12,7 +12,7 @@
     <fhirVersion value="5.0.0"/>
     <dependsOn>
         <uri value="http://hl7.org/fhir/uv/emedicinal-product-info/ImplementationGuide/hl7.fhir.uv.emedicinal-product-info"/>
-        <version value="1.0.0"/>
+        <version value="dev"/>
     </dependsOn>
     <definition>
 
@@ -38,6 +38,13 @@
             <name value="Profile: PackagedProductDefinition for Nordic ePI"/>
             <description value="PackagedProductDefinition profile containing national product identifiers and article number definitions"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/Nordic-ePI-RegulatedAuthorization"/>
+            </reference>
+            <name value="Profile: RegulatedAuthorization for Nordic ePI"/>
+            <description value="Profile for RegulatedAuthorization with binding to SPOR value sets"/>
+        </resource>
 
         <!-- CodeSystems -->
         <resource>
@@ -60,6 +67,15 @@
             </reference>
             <name value="GH ePI sections"/>
             <description value="Codes for sections that are not defined in SPOR RMS"/>
+        </resource>
+
+        <!-- ValueSets -->
+        <resource>
+            <reference>
+                <reference value="ValueSet/RegAuthRegion"/>
+            </reference>
+            <name value="Regions of Authorization"/>
+            <description value="Countries and regions where authorization can be granted"/>
         </resource>
 
         <!-- Examples: Norway -->
@@ -90,6 +106,13 @@
             </reference>
             <name value="Example: PackagedProductDefinition: PPD1"/>
             <description value="Example: PackagedProductDefinition: PPD1"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="RegulatedAuthorization/RA-Norway-1"/>
+            </reference>
+            <name value="Example: RegulatedAuthorization: RA1"/>
+            <description value="Example: RegulatedAuthorization: RA1"/>
         </resource>
 
         <resource>
@@ -148,7 +171,16 @@
             </code>
             <value value="PackagedProductDefinition/*"/>
         </parameter>
-        <!-- Product Information Document Type -->
+
+        <!-- WHO ATC -->
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="special-url"/>
+            </code>
+            <value value="http://www.whocc.no/atc"/>
+        </parameter>
+        <!-- SPOR Product Information Document Type -->
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
@@ -156,7 +188,7 @@
             </code>
             <value value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
         </parameter>
-        <!-- Quality Review of Documents Product Information Template -->
+        <!-- SPOR Quality Review of Documents Product Information Template -->
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
@@ -164,7 +196,7 @@
             </code>
             <value value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
         </parameter>
-        <!-- Regulatory Entitlement Type -->
+        <!-- SPOR Regulatory Entitlement Type -->
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
@@ -172,7 +204,7 @@
             </code>
             <value value="https://spor.ema.europa.eu/v1/lists/220000000060/terms/"/>
         </parameter>
-        <!-- Country/Region -->
+        <!-- SPOR Country/Region -->
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
@@ -180,7 +212,7 @@
             </code>
             <value value="https://spor.ema.europa.eu/v1/lists/100000000002/terms/"/>
         </parameter>
-        <!-- Regulatory Entitlement Status -->
+        <!-- SPOR Regulatory Entitlement Status -->
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
@@ -188,6 +220,7 @@
             </code>
             <value value="https://spor.ema.europa.eu/v1/lists/100000072049/terms/"/>
         </parameter>
+        <!-- Custom section codes -->
         <parameter>
             <code>
                 <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>

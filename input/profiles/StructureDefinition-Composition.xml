@@ -13,7 +13,7 @@
     <derivation value="constraint"/>
     <differential>
 
-        <!-- Identify Composition as Package Leaflet-->
+        <!-- Identify Composition as Package Leaflet -->
         <element id="Composition.type">
             <path value="Composition.type"/>
             <patternCodeableConcept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="RegAuthRegion"/>
+    <!-- Language is set so that the IG publisher populates the Display column in the value set expansion -->
+    <language value="en"/>
+    <url value="https://gravitatehealth.eu/fhir/nordic-epi-ig/ValueSet/RegAuthRegion"/>
+    <name value="RegAuthRegion"/>
+    <title value="Regions of Authorization"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <description value="Countries and regions where authorization can be granted"/>
+    <compose>
+        <include>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000000002/terms/"/>
+        </include>
+    </compose>
+</ValueSet>
