@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="EmaRmsIngredientRole"/>
+    <url value="https://spor.ema.europa.eu/v1/lists/100000072050/terms/"/>
+    <name value="EmaRmsIngredientRole"/>
+    <title value="Ingredient Role"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <description value="Ingredient Role"/>
+    <content value="complete"/>
+    <caseSensitive value="true"/>
+    <concept>
+        <code value="100000072072"/>
+        <designation>
+            <language value="en"/>
+            <value value="Active"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Virkestoff"/>
+        </designation>
+    </concept>
+</CodeSystem>

@@ -220,6 +220,14 @@
             </code>
             <value value="https://spor.ema.europa.eu/v1/lists/100000072049/terms/"/>
         </parameter>
+        <!-- SPOR Ingredient Role -->
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="special-url"/>
+            </code>
+            <value value="https://spor.ema.europa.eu/v1/lists/100000072050/terms/"/>
+        </parameter>
         <!-- Custom section codes -->
         <parameter>
             <code>
