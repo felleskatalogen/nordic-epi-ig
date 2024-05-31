@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="EmaRmsCountry"/>
+    <url value="https://spor.ema.europa.eu/v1/lists/100000000002/terms/"/>
+    <name value="EmaRmsCountry"/>
+    <title value="Country Codes"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <description value="Country Codes"/>
+    <content value="complete"/>
+    <caseSensitive value="true"/>
+    <concept>
+        <code value="100000000390"/>
+        <designation>
+            <language value="en"/>
+            <value value="European Union"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Europeiske Union"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="100000000489"/>
+        <designation>
+            <language value="en"/>
+            <value value="Kingdom of Norway"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Norge"/>
+        </designation>
+    </concept>
+</CodeSystem>

@@ -36,6 +36,15 @@
             <patternUri value="http://"/>
         </element>
         -->
+        <!-- Danish definition of Nordic Article Number -->
+        <element id="PackagedProductDefinition.identifier:danishVnr">
+            <path value="PackagedProductDefinition.identifier"/>
+            <sliceName value="danishVnr"/>
+        </element>
+        <element id="PackagedProductDefinition.identifier:danishVnr.system">
+            <path value="PackagedProductDefinition.identifier.system"/>
+            <patternUri value="https://www.indlaegssedler.dk/varenummer"/>
+        </element>
 
         <!-- Finnish national PackagedProductDefinition identifier -->
         <!-- TODO
@@ -78,7 +87,6 @@
         </element>
 
         <!-- Swedish national PackagedProductDefinition identifier -->
-
         <element id="PackagedProductDefinition.identifier:swedishPpdId">
             <path value="PackagedProductDefinition.identifier"/>
             <sliceName value="swedishPpdId"/>
@@ -87,6 +95,7 @@
             <path value="PackagedProductDefinition.identifier.system"/>
             <patternUri value="http://electronichealth.se/fhir/NamingSystem/nplpackid"/>
         </element>
+        <!-- Swedish definition of Nordic Article Number -->
         <element id="PackagedProductDefinition.identifier:swedishVnr">
             <path value="PackagedProductDefinition.identifier"/>
             <sliceName value="swedishVnr"/>
@@ -95,5 +104,6 @@
             <path value="PackagedProductDefinition.identifier.system"/>
             <patternUri value="http://electronichealth.se/fhir/NamingSystem/varunr"/>
         </element>
+
     </differential>
 </StructureDefinition>

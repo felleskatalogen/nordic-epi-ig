@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegulatedAuthorization xmlns="http://hl7.org/fhir">
+    <id value="RA-Norway-1"/>
+    <meta>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+        <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-RegulatedAuthorization"/>
+    </meta>
+    <language value="no"/>
+    <identifier>
+        <system value="http://ema.europa.eu/fhir/marketingAuthorizationNumber"/>
+        <value value="EU/1/11/111/001"/>
+    </identifier>
+    <subject>
+        <reference value="PackagedProductDefinition/PPD-Norway-1"/>
+    </subject>
+    <type>
+        <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/220000000060/terms/"/>
+            <code value="220000000061"/>
+            <display value="Markedsføringstillatelse"/>
+        </coding>
+    </type>
+    <region>
+        <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000000002/terms/"/>
+            <code value="100000000390"/>
+            <display value="Europeiske Union"/>
+        </coding>
+    </region>
+    <status>
+        <coding>
+            <system value="https://spor.ema.europa.eu/v1/lists/100000072049/terms/"/>
+            <code value="100000072099"/>
+            <display value="Gyldig"/>
+        </coding>
+    </status>
+    <holder>
+        <display value="Holder"/>
+    </holder>
+</RegulatedAuthorization>
+

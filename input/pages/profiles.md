@@ -14,7 +14,7 @@ The ePI Bundle is the container of the resources that make up a FHIR ePI. The fo
 
 <img src="bundle-components.png" alt="Components and relations in an ePI Bundle" style="float: none;"/>
 
-See the [ePI Creation](http://hl7.org/fhir/uv/emedicinal-product-info/STU1/steps-to-create-epi3.html) pages in the Electronic Medicinal Product Information (ePI) FHIR Implementation Guide for a more comprehensive graph showing more structured resources that can be used to represent details about an ePI.
+See the [ePI Creation](https://hl7.org/fhir/uv/emedicinal-product-info/STU1/steps-to-create-epi3.html) pages in the Electronic Medicinal Product Information (ePI) FHIR Implementation Guide for a more comprehensive graph showing more structured resources that can be used to represent details about an ePI.
 
 ### Composition
 
@@ -50,7 +50,7 @@ Each Composition can refer to one or more MedicinalProductDefinition resources f
 
 The [MedicinalProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-MedicinalProductDefinition.html) profile defines the following national identifiers:
 
-* Denmark: TODO
+* Denmark: `https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/`
 * Finland: TODO
 * Norway: `http://legemiddelverket.no/FEST/LegemiddelMerkevareID`
 * Sweden: `http://electronichealth.se/fhir/NamingSystem/nplid`
@@ -69,7 +69,7 @@ The [PackagedProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-Pa
   * Norway: `http://legemiddelverket.no/FEST/LegemiddelPakningID`
   * Sweden: `http://electronichealth.se/fhir/NamingSystem/nplpackid`
 * Nordic Article Numbers (country-specific definition):
-  * Denmark: TODO
+  * Denmark: `https://www.indlaegssedler.dk/varenummer`
   * Finland: `https://pharmaca.fi/vnr`
   * Norway: `https://farmalogg.no/varenummer`
   * Sweden: `http://electronichealth.se/fhir/NamingSystem/varunr`

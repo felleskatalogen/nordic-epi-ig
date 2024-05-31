@@ -26,16 +26,14 @@
         </element>
 
         <!-- Danish national MedicinalProductDefinition identifier -->
-        <!-- TODO
         <element id="MedicinalProductDefinition.identifier:danishMpdId">
             <path value="MedicinalProductDefinition.identifier"/>
             <sliceName value="danishMpdId"/>
         </element>
         <element id="MedicinalProductDefinition.identifier:danishMpdId.system">
             <path value="MedicinalProductDefinition.identifier.system"/>
-            <patternUri value="http://"/>
+            <patternUri value="https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"/>
         </element>
-        -->
 
         <!-- Finnish national MedicinalProductDefinition identifier -->
         <!-- TODO
