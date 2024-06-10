@@ -102,6 +102,20 @@
         </resource>
         <resource>
             <reference>
+                <reference value="MedicinalProductDefinition/MPD-Norway-Atc-Exists"/>
+            </reference>
+            <name value="Example: MedicinalProductDefinition: MPD-Norway-Atc-Exists"/>
+            <description value="Example: MedicinalProductDefinition with an ATC code that is known to the validator's terminology server"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="MedicinalProductDefinition/MPD-Norway-Atc-Missing"/>
+            </reference>
+            <name value="Example: MedicinalProductDefinition: MPD-Norway-Atc-Missing"/>
+            <description value="Example: MedicinalProductDefinition with a newer ATC code that is not known to the validator's terminology server"/>
+        </resource>
+        <resource>
+            <reference>
                 <reference value="PackagedProductDefinition/PPD-Norway-1"/>
             </reference>
             <name value="Example: PackagedProductDefinition: PPD1"/>

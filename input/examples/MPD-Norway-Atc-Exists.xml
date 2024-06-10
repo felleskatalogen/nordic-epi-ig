@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MedicinalProductDefinition xmlns="http://hl7.org/fhir">
+   <id value="MPD-Norway-Atc-Exists"/>
+   <meta>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-MedicinalProductDefinition"/>
+   </meta>
+   <identifier>
+      <system value="http://legemiddelverket.no/FEST/LegemiddelMerkevareID"/>
+      <value value="ID_12345678-ABCD-ABCD-ABCD-12345678ABCD"/>
+   </identifier>
+   <classification>
+      <coding>
+         <system value="http://www.whocc.no/atc"/>
+         <code value="R03BA01"/>
+      </coding>
+   </classification>
+   <name>
+      <productName value="MPD-Norway-Atc-Exists"/>
+   </name>
+</MedicinalProductDefinition>
