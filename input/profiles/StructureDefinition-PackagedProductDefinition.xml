@@ -46,17 +46,6 @@
             <patternUri value="https://www.indlaegssedler.dk/varenummer"/>
         </element>
 
-        <!-- Finnish national PackagedProductDefinition identifier -->
-        <!-- TODO
-        <element id="PackagedProductDefinition.identifier:finnishPpdId">
-            <path value="PackagedProductDefinition.identifier"/>
-            <sliceName value="finnishPpdId"/>
-        </element>
-        <element id="PackagedProductDefinition.identifier:finnishPpdId.system">
-            <path value="PackagedProductDefinition.identifier.system"/>
-            <patternUri value="http://"/>
-        </element>
-        -->
         <!-- Finnish definition of Nordic Article Number -->
         <element id="PackagedProductDefinition.identifier:finnishVnr">
             <path value="PackagedProductDefinition.identifier"/>

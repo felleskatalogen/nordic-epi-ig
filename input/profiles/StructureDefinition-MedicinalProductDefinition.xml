@@ -35,18 +35,6 @@
             <patternUri value="https://www.indlaegssedler.dk/Indlaegssedler/Indlaegsseddel/"/>
         </element>
 
-        <!-- Finnish national MedicinalProductDefinition identifier -->
-        <!-- TODO
-        <element id="MedicinalProductDefinition.identifier:finnishMpdId">
-            <path value="MedicinalProductDefinition.identifier"/>
-            <sliceName value="finnishMpdId"/>
-        </element>
-        <element id="MedicinalProductDefinition.identifier:finnishMpdId.system">
-            <path value="MedicinalProductDefinition.identifier.system"/>
-            <patternUri value="http://"/>
-        </element>
-        -->
-
         <!-- Norwegian national MedicinalProductDefinition identifier -->
         <element id="MedicinalProductDefinition.identifier:norwegianMpdId">
             <path value="MedicinalProductDefinition.identifier"/>
@@ -66,7 +54,6 @@
             <path value="MedicinalProductDefinition.identifier.system"/>
             <patternUri value="http://electronichealth.se/fhir/NamingSystem/nplid"/>
         </element>
-
 
     </differential>
 </StructureDefinition>
