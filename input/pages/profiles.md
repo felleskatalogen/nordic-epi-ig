@@ -20,9 +20,7 @@ See the [ePI Creation](https://hl7.org/fhir/uv/emedicinal-product-info/STU1/step
 
 In terms of FHIR resources, the actual text of a package leaflet is contained in a Composition resource. The document structure is therefore defined as a profile on the Composition resource: [Composition for Nordic ePI PIL](StructureDefinition-Nordic-ePI-Composition-PIL.html).
 
-In the Nordic countries, the structure of package leaflets follows the QRD template from EMA.
-* TODO: link to a general discussion of the template on EMA's website
-* TODO: country-specific details, if necessary, with links to exact template versions or national guidelines
+In the Nordic countries, the structure of package leaflets follows [the QRD template from EMA](https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/product-information-requirements/product-information-templates-human).
 
 The Composition profile translates the QRD template to a hierarchy of sections, and binds the sections to specific codes, either from SPOR, if they are available, or custom codes created by the Nordic ePI project if necessary.
 
