@@ -25,17 +25,6 @@
             </slicing>
         </element>
 
-        <!-- Danish national PackagedProductDefinition identifier -->
-        <!-- TODO
-        <element id="PackagedProductDefinition.identifier:danishPpdId">
-            <path value="PackagedProductDefinition.identifier"/>
-            <sliceName value="danishPpdId"/>
-        </element>
-        <element id="PackagedProductDefinition.identifier:danishPpdId.system">
-            <path value="PackagedProductDefinition.identifier.system"/>
-            <patternUri value="http://"/>
-        </element>
-        -->
         <!-- Danish definition of Nordic Article Number -->
         <element id="PackagedProductDefinition.identifier:danishVnr">
             <path value="PackagedProductDefinition.identifier"/>
