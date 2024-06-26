@@ -39,7 +39,6 @@ The MedicinalProductDefinition resource (MPD) represents a branded medicinal pro
 
 The corresponding entity in the national master data files is:
 
-* Denmark: TODO DrugId?
 * Finland: Lääkevalmiste ([Basic register](https://fimea.fi/en/databases_and_registers/basic-register-xml))
 * Norway: LegemiddelMerkevare ([FEST (Forskrivnings- og ekspedisjonsstøtte)](https://www.dmp.no/om-oss/distribusjon-av-legemiddeldata/fest))
 * Sweden: medprod.nplid ([NPL (Nationellt produktregister för läkemedel, NPL)](https://www.lakemedelsverket.se/sv/e-tjanster-och-hjalpmedel/substans-och-produktregister/npl))
@@ -61,7 +60,6 @@ Each PackagedProductDefinition resource refers to a single MedicinalProductDefin
 The [PackagedProductDefinition for Nordic ePI](StructureDefinition-Nordic-ePI-PackagedProductDefinition.html) profile defines the following national identifiers:
 
 * National IDs:
-  * Denmark: TODO
   * Norway: `http://legemiddelverket.no/FEST/LegemiddelPakningID`
   * Sweden: `http://electronichealth.se/fhir/NamingSystem/nplpackid`
 * Nordic Article Numbers (country-specific definition):
