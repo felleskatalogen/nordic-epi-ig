@@ -6,3 +6,12 @@
 #segment-footer {
   --footer-container-bg-color: #004178;
 }
+
+#footer-gh {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-gh-text {
+  flex-grow: 1;
+}
