@@ -7,11 +7,12 @@
   --footer-container-bg-color: #004178;
 }
 
-#footer-gh {
+#footer-logos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-#footer-gh-text {
-  flex-grow: 1;
+#footer-logos div {
+  background-color: white;
+  padding: .25em;
 }
