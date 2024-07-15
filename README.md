@@ -2,6 +2,8 @@
 
 This is the repository of the Nordic ePI Implementation Guide.
 
+The result of the latest successful build is available on [https://build.fhir.org/ig/felleskatalogen/nordic-epi-ig/](https://build.fhir.org/ig/felleskatalogen/nordic-epi-ig/)
+
 ## Prerequisites
 
 The IG Publisher needs the following to be installed:
