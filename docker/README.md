@@ -2,7 +2,7 @@
 
 1. Use `docker-compose.yml` to start Nginx.
 1. Open `http://localhost/examples/` in a web browser
-1. Click on any of the FHIR XML ePIL Bundle files, e.g. http://localhost/examples/Bundle-Level-1-Norwegian.xml
+1. Click on any of the FHIR XML ePIL Bundle files, e.g. http://localhost/examples/Bundle-Level-2-Norwegian-Type-2.xml
 
 Relative to the `docker` directory, `../input/examples` is mapped to `/examples` on the server.
 `nginx.conf` loads the XSLT filter module in Nginx.
