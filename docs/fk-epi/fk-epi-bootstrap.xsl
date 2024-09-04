@@ -31,15 +31,15 @@
                     <xsl:value-of select="$composition/fhir:title/@value"/>
                     <xsl:text> - Pakningsvedlegg</xsl:text>
                 </title>
-                <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-                <link href="/lib/fontawesome/css/fontawesome.min.css" rel="stylesheet"/>
-                <link href="/lib/fontawesome/css/solid.min.css" rel="stylesheet"/>
-                <link href="/lib/opensans/opensans.css" rel="stylesheet"/>
-                <link href="/fk-epi/fk-epi-bootstrap.css" rel="stylesheet"/>
+                <link href="/nordic-epi-ig/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+                <link href="/nordic-epi-ig/lib/fontawesome/css/fontawesome.min.css" rel="stylesheet"/>
+                <link href="/nordic-epi-ig/lib/fontawesome/css/solid.min.css" rel="stylesheet"/>
+                <link href="/nordic-epi-ig/lib/opensans/opensans.css" rel="stylesheet"/>
+                <link href="/nordic-epi-ig/fk-epi/fk-epi-bootstrap.css" rel="stylesheet"/>
             </head>
             <body>
                 <xsl:apply-templates select="$composition"/>
-                <script src="/lib/bootstrap/js/bootstrap.min.js"> </script>
+                <script src="/nordic-epi-ig/lib/bootstrap/js/bootstrap.min.js"> </script>
             </body>
         </html>
     </xsl:template>
