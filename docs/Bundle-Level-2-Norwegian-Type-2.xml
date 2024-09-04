@@ -869,7 +869,7 @@
                     <attachment>
                         <contentType value="video/mp4"/>
                         <!-- Source: https://www.pexels.com/video/pills-close-up-7033924/ -->
-                        <url value="http://localhost/media/pharma-sample-video.mp4"/>
+                        <url value="https://felleskatalogen.github.io/nordic-epi-ig/media/pharma-sample-video.mp4"/>
                         <size value="14305745"/>
                     </attachment>
                 </content>
