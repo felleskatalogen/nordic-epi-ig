@@ -14,7 +14,7 @@
     <entry>
         <fullUrl value="https://gravitatehealth.eu/fhir/nordic-epi/Composition/Composition-Level-1-Norwegian"/>
         <resource>
-            <Composition xmlns="http://hl7.org/fhir">
+            <Composition>
                 <id value="Composition-Level-1-Norwegian"/>
                 <meta>
                     <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-Composition-PIL"/>
@@ -228,7 +228,7 @@
     <entry>
         <fullUrl value="https://gravitatehealth.eu/fhir/nordic-epi/PackagedProductDefinition/PPD-Norway-1"/>
         <resource>
-            <PackagedProductDefinition xmlns="http://hl7.org/fhir">
+            <PackagedProductDefinition>
                 <id value="PPD-Norway-1"/>
                 <meta>
                     <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
@@ -247,6 +247,33 @@
                     <reference value="MedicinalProductDefinition/MPD-Norway-1"/>
                 </packageFor>
             </PackagedProductDefinition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="https://gravitatehealth.eu/fhir/nordic-epi/ClinicalUseDefinition/CUD-Norway-1"/>
+        <resource>
+            <ClinicalUseDefinition>
+                <id value="CUD-Norway-1"/>
+                <meta>
+                    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
+                    <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-ClinicalUseDefinition-Indication"/>
+                </meta>
+                <type value="indication"/>
+                <subject>
+                    <reference value="MedicinalProductDefinition/MPD-Norway-1"/>
+                </subject>
+                <indication>
+                    <diseaseSymptomProcedure>
+                        <concept>
+                            <coding>
+                                <system value="http://terminology.hl7.org/CodeSystem/mdr"/>
+                                <code value="12345678"/>
+                                <display value="MedDRA Term"/>
+                            </coding>
+                        </concept>
+                    </diseaseSymptomProcedure>
+                </indication>
+            </ClinicalUseDefinition>
         </resource>
     </entry>
 </Bundle>

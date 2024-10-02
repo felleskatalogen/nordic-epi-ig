@@ -45,6 +45,13 @@
             <name value="Profile: RegulatedAuthorization for Nordic ePI"/>
             <description value="Profile for RegulatedAuthorization with binding to SPOR value sets"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/Nordic-ePI-ClinicalUseDefinition-Indication"/>
+            </reference>
+            <name value="Profile: ClinicalUseDefinition for indication in Nordic ePI"/>
+            <description value="Profile for ClinicalUseDefinition with required binding to MedDRA"/>
+        </resource>
 
         <!-- CodeSystems -->
         <resource>
@@ -113,6 +120,13 @@
             </reference>
             <name value="Example: RegulatedAuthorization: RA1"/>
             <description value="Example: RegulatedAuthorization: RA1"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ClinicalUseDefinition/CUD-Norway-1"/>
+            </reference>
+            <name value="Example: ClinicalUseDefinition: CUD1"/>
+            <description value="Example: ClinicalUseDefinition: CUD1"/>
         </resource>
 
         <resource>

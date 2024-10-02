@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalUseDefinition xmlns="http://hl7.org/fhir">
+    <id value="CUD-Norway-1"/>
+    <meta>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
+        <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-ClinicalUseDefinition-Indication"/>
+    </meta>
+    <type value="indication"/>
+    <subject>
+        <reference value="MedicinalProductDefinition/MPD-Norway-1"/>
+    </subject>
+    <indication>
+        <diseaseSymptomProcedure>
+            <concept>
+
+                <!-- Example from the Vulcan ePI IG: -->
+                <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/mdr"/>
+                    <code value="10037156"/>
+                    <display value="Psoriasis"/>
+                </coding>
+
+                <!--
+                Does the EMA PDF Implementation Guide define use of the original MedDRA ID, or the SPOR RMS ID?
+
+                An example in the PDF is: 100000054740 Migraine headache
+                In SPOR RMS List 100000000006 the term is:
+                * Term Id: 100000054740 <- this is the ID in the example
+                * Term Name: Migraine headache
+                * Source Id: 10027602 <- this is in MedDRA as LLT (checked through the MedDRA WBB) 
+
+                Should our example for Psoriasis be this?
+                <coding>
+                    <system value="https://spor.ema.europa.eu/v1/lists/100000000006/terms/"/>
+                    <code value="100000018190"/>
+                    <display value="Psoriasis"/>
+                </coding>
+
+                In this case, our CUD profile should also change the binding to a value set with SPOR codes.
+                -->
+
+            </concept>
+        </diseaseSymptomProcedure>
+    </indication>
+</ClinicalUseDefinition>

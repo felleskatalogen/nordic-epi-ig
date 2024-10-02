@@ -17,6 +17,9 @@ Reference to experimental CodeSystem https://spor.ema.europa.eu/v1/lists/%
 # Experimental Gravitate Health code systems
 Reference to experimental CodeSystem https://gravitatehealth.eu/%
 
+# MedDRA code system
+A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/mdr' could not be found, so the code cannot be validated
+
 # Section headings from EMA SPOR RMS
 The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 
