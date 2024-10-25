@@ -14,7 +14,7 @@ The IG Publisher needs the following to be installed:
 
 ## Build instructions
 
-1. Run `_updatePublisher.sh` to update the scripts locally and download the IG Publisher JAR
+1. Run `_updatePublisher.sh` to update the scripts locally and download the latest IG Publisher JAR
 1. Run `_genonce.sh` to build the implementation guides
 
 Check the output for any errors. 
