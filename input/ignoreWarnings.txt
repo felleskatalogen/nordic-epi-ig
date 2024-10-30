@@ -23,3 +23,5 @@ A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/mdr' could no
 # Section headings from EMA SPOR RMS
 The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 
+# Warning in local builds
+Hyperlink scheme 'file' in 'file://%

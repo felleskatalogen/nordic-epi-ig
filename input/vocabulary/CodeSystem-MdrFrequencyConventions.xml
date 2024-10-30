@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="MdrFrequencyConventions"/>
+    <language value="en"/>
+    <url value="https://gravitatehealth.eu/meddra/frequency"/>
+    <name value="MdrFrequencyConventions"/>
+    <title value="MedDRA Frequency Conventions"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <description value="Codes for side effect frequencies"/>
+    <content value="complete"/>
+    <caseSensitive value="true"/>
+    <!-- Source: Section 4.8 of the QRD template refers to 'MedDRA frequency convention', in Appendix II
+        https://www.ema.europa.eu/en/documents/template-form/qrd-appendix-ii-medical-dictionary-regulatory-activities-terminology-be-used-section-48-undesirable-effects-summary-product-characteristics-cover-page_en.docx
+    -->
+    <!-- Using Norwegian designations in display because the required slices are not recognized otherwise -->
+    <concept>
+        <code value="001"/>
+        <display value="svært vanlige"/>
+        <definition value="(≥1/10)"/>
+        <designation>
+            <language value="en"/>
+            <value value="Very common"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="svært vanlige"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="002"/>
+        <display value="vanlige"/>
+        <definition value="≥1/100 to &lt;1/10"/>
+        <designation>
+            <language value="en"/>
+            <value value="Common"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="vanlige"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="003"/>
+        <display value="Uncommon"/>
+        <definition value="≥1/1000 to &lt;1/100"/>
+        <designation>
+            <language value="en"/>
+            <value value="mindre vanlige"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="mindre vanlige"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="004"/>
+        <display value="sjeldne"/>
+        <definition value="≥1/10000 to &lt;1/1000"/>
+        <designation>
+            <language value="en"/>
+            <value value="Rare"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="sjeldne"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="005"/>
+        <display value="svært sjeldne"/>
+        <definition value="&lt;1/10000"/>
+        <designation>
+            <language value="en"/>
+            <value value="Very rare"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="svært sjeldne"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="006"/>
+        <display value="ukjent"/>
+        <definition value="cannot be estimated from the available data"/>
+        <designation>
+            <language value="en"/>
+            <value value="not known"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="ukjent"/>
+        </designation>
+    </concept>
+    <!-- ikke-angitt -->
+</CodeSystem>

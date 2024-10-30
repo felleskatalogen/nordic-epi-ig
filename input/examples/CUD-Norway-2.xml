@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalUseDefinition xmlns="http://hl7.org/fhir">
+    <id value="CUD-Norway-2"/>
+    <meta>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi"/>
+        <profile value="https://gravitatehealth.eu/fhir/nordic-epi-ig/StructureDefinition/Nordic-ePI-ClinicalUseDefinition-UndesirableEffect"/>
+    </meta>
+    <type value="undesirable-effect"/>
+    <subject>
+        <reference value="MedicinalProductDefinition/MPD-Norway-1"/>
+    </subject>
+    <undesirableEffect>
+        <symptomConditionEffect>
+            <concept>
+                <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/mdr"/>
+                    <code value="10020993"/>
+                    <display value="Hypoglycaemia"/>
+                </coding>
+            </concept>
+        </symptomConditionEffect>
+        <frequencyOfOccurrence>
+            <coding>
+                <system value="https://gravitatehealth.eu/meddra/frequency"/>
+                <code value="001"/>
+                <display value="svært vanlige"/>
+            </coding>
+        </frequencyOfOccurrence>
+    </undesirableEffect>
+</ClinicalUseDefinition>

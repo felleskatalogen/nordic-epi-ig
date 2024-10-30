@@ -52,6 +52,13 @@
             <name value="Profile: ClinicalUseDefinition for indication in Nordic ePI"/>
             <description value="Profile for ClinicalUseDefinition with required binding to MedDRA"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/Nordic-ePI-ClinicalUseDefinition-UndesirableEffect"/>
+            </reference>
+            <name value="Profile: ClinicalUseDefinition for undesirable effect in Nordic ePI"/>
+            <description value="Profile for ClinicalUseDefinition with required binding to MedDRA"/>
+        </resource>
 
         <!-- CodeSystems -->
         <resource>
@@ -75,6 +82,13 @@
             <name value="GH ePI sections"/>
             <description value="Codes for sections that are not defined in SPOR RMS"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="CodeSystem/MdrFrequencyConventions"/>
+            </reference>
+            <name value="MedDRA Frequency Conventions"/>
+            <description value="Codes for side effect frequencies"/>
+        </resource>
 
         <!-- ValueSets -->
         <resource>
@@ -83,6 +97,13 @@
             </reference>
             <name value="Regions of Authorization"/>
             <description value="Countries and regions where authorization can be granted"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ValueSet/MdrFrequencyConventions"/>
+            </reference>
+            <name value="MedDRA Frequency Conventions"/>
+            <description value="Codes for side effect frequencies"/>
         </resource>
 
         <!-- Examples: Norway -->
@@ -126,7 +147,14 @@
                 <reference value="ClinicalUseDefinition/CUD-Norway-1"/>
             </reference>
             <name value="Example: ClinicalUseDefinition: CUD1"/>
-            <description value="Example: ClinicalUseDefinition: CUD1"/>
+            <description value="Example: ClinicalUseDefinition: Indication: CUD1"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="ClinicalUseDefinition/CUD-Norway-2"/>
+            </reference>
+            <name value="Example: ClinicalUseDefinition: CUD2"/>
+            <description value="Example: ClinicalUseDefinition: Undesirable effect: CUD2"/>
         </resource>
 
         <resource>
@@ -249,6 +277,14 @@
                 <code value="special-url"/>
             </code>
             <value value="https://gravitatehealth.eu/section"/>
+        </parameter>
+        <!-- MedDRA Frequency Conventions -->
+        <parameter>
+            <code>
+                <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+                <code value="special-url"/>
+            </code>
+            <value value="https://gravitatehealth.eu/meddra/frequency"/>
         </parameter>
 
         <parameter>

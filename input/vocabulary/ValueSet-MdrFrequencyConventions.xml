@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="MdrFrequencyConventions"/>
+    <language value="en"/>
+    <url value="https://gravitatehealth.eu/fhir/nordic-epi-ig/ValueSet/MdrFrequencyConventions"/>
+    <name value="MdrFrequencyConventions"/>
+    <title value="MedDRA Frequency Conventions"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <description value="Codes for side effect frequencies"/>
+    <compose>
+        <include>
+            <system value="https://gravitatehealth.eu/meddra/frequency"/>
+        </include>
+    </compose>
+</ValueSet>
