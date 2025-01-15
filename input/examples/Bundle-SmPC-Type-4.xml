@@ -120,6 +120,36 @@
                                 </div>
                             </text>
                         </section>
+                        <section>
+                            <title value="4.9 Overdose"/>
+                            <code>
+                                <coding>
+                                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                                    <code value="200000029799"/>
+                                    <display value="4.9 Overdose"/>
+                                </coding>
+                            </code>
+                            <text>
+                                <status value="additional"/>
+                                <div xmlns="http://www.w3.org/1999/xhtml">
+                                    <h3>4.9 Overdose</h3>
+                                    <h4>Treatment</h4>
+                                    <p>If necessary, gastric irrigation and activated charcoal.
+                                        Plasma <span id="4a60ffc6-0a29-4591-a46b-104a2782d09a">paracetamol</span> concentration
+                                        should be measured at 4 hours or later after ingestion. Acute response. False lows may be
+                                        measured if <span id="d35b1234-c473-4681-8102-b5fcc8573a67">acetylcysteine</span> has
+                                        already been administered.</p>
+                                </div>
+                            </text>
+                            <entry>
+                                <!-- paracetamol -->
+                                <reference value="SubstanceDefinition/d052b53c-6d08-49a0-bb2d-359d3bc665e2"/>
+                            </entry>
+                            <entry>
+                                <!-- acetylcysteine -->
+                                <reference value="SubstanceDefinition/9f188716-f66e-43e1-97e1-fb671154140a"/>
+                            </entry>
+                        </section>
                     </section>
                 </section>
             </Composition>
@@ -253,6 +283,9 @@
         <resource>
             <SubstanceDefinition>
                 <id value="d052b53c-6d08-49a0-bb2d-359d3bc665e2"/>
+                <extension url="http://hl7.org/fhir/StructureDefinition/narrativeLink">
+                    <valueUrl value="Composition/1cff6fcf-8a54-4de1-a3a2-c9e8fc8e8127#4a60ffc6-0a29-4591-a46b-104a2782d09a"/>
+                </extension>
                 <code>
                     <code>
                         <coding>
@@ -277,13 +310,36 @@
                     <code>
                         <coding>
                             <system value="http://edqm.local"/>
-                            <code value="EDQM2002"/>
+                            <code value="EDQM1002"/>
                             <display value="wheat starch"/>
                         </coding>
                     </code>
                 </code>
                 <name>
                     <name value="wheat starch"/>
+                </name>
+            </SubstanceDefinition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:9f188716-f66e-43e1-97e1-fb671154140a"/>
+        <resource>
+            <SubstanceDefinition>
+                <id value="9f188716-f66e-43e1-97e1-fb671154140a"/>
+                <extension url="http://hl7.org/fhir/StructureDefinition/narrativeLink">
+                    <valueUrl value="Composition/1cff6fcf-8a54-4de1-a3a2-c9e8fc8e8127#d35b1234-c473-4681-8102-b5fcc8573a67"/>
+                </extension>
+                <code>
+                    <code>
+                        <coding>
+                            <system value="http://edqm.local"/>
+                            <code value="EDQM1003"/>
+                            <display value="acetylcysteine"/>
+                        </coding>
+                    </code>
+                </code>
+                <name>
+                    <name value="acetylcysteine"/>
                 </name>
             </SubstanceDefinition>
         </resource>
