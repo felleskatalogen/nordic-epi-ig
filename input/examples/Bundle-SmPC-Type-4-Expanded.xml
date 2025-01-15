@@ -86,7 +86,8 @@
                         <div xmlns="http://www.w3.org/1999/xhtml">
                            <h3>Excipient(s) with known effect</h3>
                            <div>
-                              <p class="ingredient">Contains  <span class="http://edqm.local|EDQM2002">wheat starch</span>
+                              <p class="ingredient">Contains  <span class="coded-data http://edqm.local|EDQM2002"
+                                       title="http://edqm.local|EDQM2002">wheat starch</span>
                               </p>
                            </div>
                            <div>
@@ -125,7 +126,8 @@
                         <div xmlns="http://www.w3.org/1999/xhtml">
                            <h3>4.1 Therapeutic indications</h3>
                            <div>
-                              <p class="http://hl7.org/fhir/sid/icd-10|A00.0A">
+                              <p class="coded-indication http://hl7.org/fhir/sid/icd-10|A00.0A"
+                                 title="http://hl7.org/fhir/sid/icd-10|A00.0A">
                                  <div>recommended for the short-term treatment of mild to moderate pain such as headache and menstrual pain</div>
                               </p>
                            </div>

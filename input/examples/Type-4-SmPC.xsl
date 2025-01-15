@@ -65,6 +65,14 @@
     <xsl:template match="fhir:SubstanceDefinition" mode="section23">
         <span xmlns="http://www.w3.org/1999/xhtml">
             <xsl:attribute name="class">
+                <xsl:text>coded-data </xsl:text>
+                <xsl:for-each select="fhir:code/fhir:code/fhir:coding">
+                    <xsl:value-of select="fhir:system/@value"/>
+                    <xsl:text>|</xsl:text>
+                    <xsl:value-of select="fhir:code/@value"/>
+                </xsl:for-each>
+            </xsl:attribute>
+            <xsl:attribute name="title">
                 <xsl:for-each select="fhir:code/fhir:code/fhir:coding">
                     <xsl:value-of select="fhir:system/@value"/>
                     <xsl:text>|</xsl:text>
@@ -93,6 +101,14 @@
     <xsl:template match="fhir:ClinicalUseDefinition" mode="section41">
         <p xmlns="http://www.w3.org/1999/xhtml">
             <xsl:attribute name="class">
+                <xsl:text>coded-indication </xsl:text>
+                <xsl:for-each select="fhir:indication/fhir:diseaseSymptomProcedure/fhir:concept/fhir:coding">
+                    <xsl:value-of select="fhir:system/@value"/>
+                    <xsl:text>|</xsl:text>
+                    <xsl:value-of select="fhir:code/@value"/>
+                </xsl:for-each>
+            </xsl:attribute>
+            <xsl:attribute name="title">
                 <xsl:for-each select="fhir:indication/fhir:diseaseSymptomProcedure/fhir:concept/fhir:coding">
                     <xsl:value-of select="fhir:system/@value"/>
                     <xsl:text>|</xsl:text>
