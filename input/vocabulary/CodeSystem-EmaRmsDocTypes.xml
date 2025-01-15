@@ -10,6 +10,21 @@
     <content value="complete"/>
     <caseSensitive value="true"/>
     <concept>
+        <code value="100000155532"/>
+        <designation>
+            <language value="en"/>
+            <value value="Summary of Product Characteristics"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Preparatomtale"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Produktresumé"/>
+        </designation>
+    </concept>
+    <concept>
         <code value="100000155538"/>
         <designation>
             <language value="en"/>

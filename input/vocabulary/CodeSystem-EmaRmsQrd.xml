@@ -10,6 +10,381 @@
     <content value="complete"/>
     <caseSensitive value="true"/>
     <concept>
+        <code value="200000029791"/>
+        <designation>
+            <language value="en"/>
+            <value value="SUMMARY OF PRODUCT CHARACTERISTICS"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="PREPARATOMTALE"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="PRODUKTRESUMÉ"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029792"/>
+        <designation>
+            <language value="en"/>
+            <value value="1. NAME OF THE MEDICINAL PRODUCT"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="1. LEGEMIDLETS NAVN"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="1. LÄKEMEDLETS NAMN"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029793"/>
+        <designation>
+            <language value="en"/>
+            <value value="2. QUALITATIVE AND QUANTITATIVE COMPOSITION"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="2. KVALITATIV OG KVANTITATIV SAMMENSETNING"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="2. KVALITATIV OCH KVANTITATIV SAMMANSÄTTNING"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029794"/>
+        <designation>
+            <language value="en"/>
+            <value value="2.1 General description"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="2.1 Generell beskrivelse"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Allmän beskrivning"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029795"/>
+        <designation>
+            <language value="en"/>
+            <value value="2.2 Qualitative and quantitative composition"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="2.2 Kvalitativ og kvantitativ sammensetning"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="2.2 Kvalitativ och kvantitativ sammansättning"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029796"/>
+        <designation>
+            <language value="en"/>
+            <value value="Excipient(s) with known effect"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="Hjelpestoff(er) med kjent effekt"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Hjälpämne(n) med känd effekt"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029797"/>
+        <designation>
+            <language value="en"/>
+            <value value="3. PHARMACEUTICAL FORM"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="3. LEGEMIDDELFORM"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="3. LÄKEMEDELSFORM"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029798"/>
+        <designation>
+            <language value="en"/>
+            <value value="4. CLINICAL PARTICULARS"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4. KLINISKE OPPLYSNINGER"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="4. KLINISKA UPPGIFTER"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029799"/>
+        <designation>
+            <language value="en"/>
+            <value value="4.1 Therapeutic indications"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4.1 Indikasjon(er)"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="4.1 Terapeutiska indikationer"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029800"/>
+        <designation>
+            <language value="en"/>
+            <value value="4.2 Posology and method of administration"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4.2 Dosering og administrasjonsmåte"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="4.2 Dosering och administreringssätt"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029805"/>
+        <designation>
+            <language value="en"/>
+            <value value="4.3 Contraindications"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4.3 Kontraindikasjoner"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="4.3 Kontraindikationer"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029806"/>
+        <designation>
+            <language value="en"/>
+            <value value="4.4 Special warnings and precautions for use"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4.4 Advarsler og forsiktighetsregler"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="4.4 Varningar och försiktighet"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029809"/>
+        <designation>
+            <language value="en"/>
+            <value value="4.5 Interaction with other medicinal products and other forms of interaction"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4.5 Interaksjon med andre legemidler og andre former for interaksjon"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value=""/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029811"/>
+        <designation>
+            <language value="en"/>
+            <value value="4.6 Fertility, pregnancy and lactation"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4.6 Fertilitet, graviditet og amming"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="4.6 Fertilitet, graviditet och amning"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029815"/>
+        <designation>
+            <language value="en"/>
+            <value value="4.7 Effects on ability to drive and use machines"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4.7 Påvirkning av evnen til å kjøre bil og bruke maskiner"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="Effekter på förmågan att framföra fordon och använda maskiner"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029816"/>
+        <designation>
+            <language value="en"/>
+            <value value="4.8 Undesirable effects"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4.8 Bivirkninger"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="4.8 Biverkningar"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029819"/>
+        <designation>
+            <language value="en"/>
+            <value value="4.9 Overdose"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="4.9 Overdosering"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="4.9 Överdosering"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029821"/>
+        <designation>
+            <language value="en"/>
+            <value value="5. PHARMACOLOGICAL PROPERTIES"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="5. FARMAKOLOGISKE EGENSKAPER"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="5. FARMAKOLOGISKA EGENSKAPER"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029836"/>
+        <designation>
+            <language value="en"/>
+            <value value="6. PHARMACEUTICAL PARTICULARS"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="6. FARMASØYTISKE OPPLYSNINGER"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="6. FARMACEUTISKA UPPGIFTER"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029844"/>
+        <designation>
+            <language value="en"/>
+            <value value="7. MARKETING AUTHORISATION HOLDER"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="7. INNEHAVER AV MARKEDSFØRINGSTILLATELSEN"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="7. INNEHAVARE AV GODKÄNNANDE FÖR FÖRSÄLJNING"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029845"/>
+        <designation>
+            <language value="en"/>
+            <value value="8. MARKETING AUTHORISATION NUMBER(S)"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="8. MARKEDSFØRINGSTILLATELSESNUMMER (NUMRE)"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="8. NUMMER PÅ GODKÄNNANDE FÖR FÖRSÄLJNING"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029846"/>
+        <designation>
+            <language value="en"/>
+            <value value="9. DATE OF FIRST AUTHORISATION/RENEWAL OF THE AUTHORISATION"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="9. DATO FOR FØRSTE MARKEDSFØRINGSTILLATELSE / SISTE FORNYELSE"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="9. DATUM FÖR FÖRSTA GODKÄNNANDE/FÖRNYAT GODKÄNNANDE"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029847"/>
+        <designation>
+            <language value="en"/>
+            <value value="10. DATE OF REVISION OF THE TEXT"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="10. OPPDATERINGSDATO"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="10. DATUM FÖR ÖVERSYN AV PRODUKTRESUMÉN"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029848"/>
+        <designation>
+            <language value="en"/>
+            <value value="11. DOSIMETRY"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="11. DOSIMETRI"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="11. ABSORBERAD DOS OCH EFFEKTIV DOS"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029849"/>
+        <designation>
+            <language value="en"/>
+            <value value="12. INSTRUCTIONS FOR PREPARATION OF RADIOPHARMACEUTICALS"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="12. INSTRUKSJONER FOR TILBEREDELSE AV RADIOFARMAKA"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="12. INSTRUKTION FÖR BEREDNING AV RADIOFARMAKA"/>
+        </designation>
+    </concept>
+    <concept>
         <code value="200000029894"/>
         <designation>
             <language value="en"/>

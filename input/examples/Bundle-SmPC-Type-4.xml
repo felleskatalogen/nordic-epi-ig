@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+    <id value="ade0fcda-0e3a-4386-abcb-9d2c80db14a0"/>
+    <language value="en"/>
+    <type value="document"/>
+    <timestamp value="2025-01-14T14:01:01Z"/>
+    <entry>
+        <fullUrl value="urn:uuid:1cff6fcf-8a54-4de1-a3a2-c9e8fc8e8127"/>
+        <resource>
+            <Composition>
+                <id value="1cff6fcf-8a54-4de1-a3a2-c9e8fc8e8127"/>
+                <language value="en"/>
+                <status value="final"/>
+                <type>
+                    <coding>
+                        <system value="https://spor.ema.europa.eu/v1/lists/100000155531/terms/"/>
+                        <code value="100000155532"/>
+                        <display value="Summary of Product Characteristics"/>
+                    </coding>
+                </type>
+                <subject>
+                    <reference value="MedicinalProductDefinition/e444e91d-cdbb-4028-acd9-27c4eed4bb13"/>
+                </subject>
+                <date value="2025-01-14"/>
+                <author>
+                    <reference value="Organization/688f8bcc-33ba-4e3b-9517-3a56c4da1358"/>
+                </author>
+                <title value="{}"/>
+                <section>
+                    <title value="SUMMARY OF PRODUCT CHARACTERISTICS"/>
+                    <code>
+                        <coding>
+                            <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                            <code value="200000029894"/>
+                            <display value="SUMMARY OF PRODUCT CHARACTERISTICS"/>
+                        </coding>
+                    </code>
+                    <text>
+                        <status value="additional"/>
+                        <div xmlns="http://www.w3.org/1999/xhtml">
+                            <h1>SUMMARY OF PRODUCT CHARACTERISTICS</h1>
+                        </div>
+                    </text>
+                    <section>
+                        <title value="1. NAME OF THE MEDICINAL PRODUCT"/>
+                        <code>
+                            <coding>
+                                <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                                <code value="200000029792"/>
+                                <display value="1. NAME OF THE MEDICINAL PRODUCT"/>
+                            </coding>
+                        </code>
+                        <text>
+                            <status value="additional"/>
+                            <div xmlns="http://www.w3.org/1999/xhtml">
+                                <h2>1. NAME OF THE MEDICINAL PRODUCT</h2>
+                            </div>
+                        </text>
+                    </section>
+                    <section>
+                        <title value="2. QUALITATIVE AND QUANTITATIVE COMPOSITION"/>
+                        <code>
+                            <coding>
+                                <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                                <code value="200000029793"/>
+                                <display value="2. QUALITATIVE AND QUANTITATIVE COMPOSITION"/>
+                            </coding>
+                        </code>
+                        <text>
+                            <status value="additional"/>
+                            <div xmlns="http://www.w3.org/1999/xhtml">
+                                <h2>2. QUALITATIVE AND QUANTITATIVE COMPOSITION</h2>
+                            </div>
+                        </text>
+                        <section>
+                            <title value="Excipient(s) with known effect"/>
+                            <code>
+                                <coding>
+                                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                                    <code value="200000029796"/>
+                                    <display value="Excipient(s) with known effect"/>
+                                </coding>
+                            </code>
+                            <text>
+                                <status value="additional"/>
+                                <div xmlns="http://www.w3.org/1999/xhtml">
+                                    <h3>Excipient(s) with known effect</h3>
+                                </div>
+                            </text>
+                        </section>
+                    </section>
+                    <section>
+                        <title value="4. CLINICAL PARTICULARS"/>
+                        <code>
+                            <coding>
+                                <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                                <code value="200000029798"/>
+                                <display value="4. CLINICAL PARTICULARS"/>
+                            </coding>
+                        </code>
+                        <text>
+                            <status value="additional"/>
+                            <div xmlns="http://www.w3.org/1999/xhtml">
+                                <h2>4. CLINICAL PARTICULARS</h2>
+                            </div>
+                        </text>
+                        <section>
+                            <title value="4.1 Therapeutic indications"/>
+                            <code>
+                                <coding>
+                                    <system value="https://spor.ema.europa.eu/v1/lists/200000029659/terms/"/>
+                                    <code value="200000029799"/>
+                                    <display value="4.1 Therapeutic indications"/>
+                                </coding>
+                            </code>
+                            <text>
+                                <status value="additional"/>
+                                <div xmlns="http://www.w3.org/1999/xhtml">
+                                    <h3>4.1 Therapeutic indications</h3>
+                                </div>
+                            </text>
+                        </section>
+                    </section>
+                </section>
+            </Composition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:e444e91d-cdbb-4028-acd9-27c4eed4bb13"/>
+        <resource>
+            <MedicinalProductDefinition>
+                <id value="e444e91d-cdbb-4028-acd9-27c4eed4bb13"/>
+                <name>
+                    <productName value="{}"/>
+                    <part>
+                        <part value="Parazeth"/>
+                        <type>
+                            <!--
+                            <coding>
+                                <system value=""/>
+                                <code value=""/>
+                                <display value=""/>
+                            </coding>
+                            -->
+                            <text value="tradename"/>
+                        </type>
+                    </part>
+                    <part>
+                        <part value="500"/>
+                        <type>
+                            <!--
+                            <coding>
+                                <system value=""/>
+                                <code value=""/>
+                                <display value=""/>
+                            </coding>
+                            -->
+                            <text value="strength-num"/>
+                        </type>
+                    </part>
+                    <part>
+                        <part value="mg"/>
+                        <type>
+                            <!--
+                            <coding>
+                                <system value=""/>
+                                <code value=""/>
+                                <display value=""/>
+                            </coding>
+                            -->
+                            <text value="strength-unit"/>
+                        </type>
+                    </part>
+                    <part>
+                        <part value="tablet"/><!-- Coding of the form is in .combinedPharmaceuticalDoseForm and ManufacturedItemDefinition.manufacturedDoseForm -->
+                        <type>
+                            <!--
+                            <coding>
+                                <system value=""/>
+                                <code value=""/>
+                                <display value=""/>
+                            </coding>
+                            -->
+                            <text value="pharmform"/>
+                        </type>
+                    </part>
+                </name>
+            </MedicinalProductDefinition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:2c9b5c32-91f1-4dbc-9c23-e84d96821186"/>
+        <resource>
+            <Ingredient>
+                <id value="2c9b5c32-91f1-4dbc-9c23-e84d96821186"/>
+                <status value="active"/><!-- Publication status -->
+                <for>
+                    <reference value="MedicinalProductDefinition/e444e91d-cdbb-4028-acd9-27c4eed4bb13"/>
+                </for>
+                <role>
+                    <coding>
+                        <system value="https://spor.ema.europa.eu/v1/lists/100000072050/terms/"/>
+                        <code value="100000072072"/>
+                        <display value="Active"/>
+                    </coding>
+                </role>
+                <substance>
+                    <code>
+                        <reference>
+                            <reference value="SubstanceDefinition/d052b53c-6d08-49a0-bb2d-359d3bc665e2"/>
+                        </reference>
+                    </code>
+                    <strength>
+                        <presentationQuantity>
+                            <value value="500"/>
+                            <unit value="mg"/>
+                            <system value="http://unitsofmeasure.org"/>
+                            <code value="mg"/>
+                        </presentationQuantity>
+                    </strength>
+                </substance>
+            </Ingredient>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="2a3273b1-6aa3-44fb-bf84-c78e84d56a8f"/>
+        <resource>
+            <Ingredient>
+                <id value="2a3273b1-6aa3-44fb-bf84-c78e84d56a8f"/>
+                <status value="active"/><!-- Publication status -->
+                <for>
+                    <reference value="MedicinalProductDefinition/e444e91d-cdbb-4028-acd9-27c4eed4bb13"/>
+                </for>
+                <role>
+                    <coding>
+                        <system value="https://spor.ema.europa.eu/v1/lists/100000072050/terms/"/>
+                        <code value="100000072082"/>
+                        <display value="Excipient"/>
+                    </coding>
+                </role>
+                <substance>
+                    <code>
+                        <reference>
+                            <reference value="SubstanceDefinition/3c05d423-1cdc-41a7-aea8-ec5d81181ac4"/>
+                        </reference>
+                    </code>
+                </substance>
+            </Ingredient>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:d052b53c-6d08-49a0-bb2d-359d3bc665e2"/>
+        <resource>
+            <SubstanceDefinition>
+                <id value="d052b53c-6d08-49a0-bb2d-359d3bc665e2"/>
+                <code>
+                    <code>
+                        <coding>
+                            <system value="http://edqm.local"/>
+                            <code value="EDQM1001"/>
+                            <display value="paracetamol"/>
+                        </coding>
+                    </code>
+                </code>
+                <name>
+                    <name value="paracetamol"/>
+                </name>
+            </SubstanceDefinition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:3c05d423-1cdc-41a7-aea8-ec5d81181ac4"/>
+        <resource>
+            <SubstanceDefinition>
+                <id value="3c05d423-1cdc-41a7-aea8-ec5d81181ac4"/>
+                <code>
+                    <code>
+                        <coding>
+                            <system value="http://edqm.local"/>
+                            <code value="EDQM2002"/>
+                            <display value="wheat starch"/>
+                        </coding>
+                    </code>
+                </code>
+                <name>
+                    <name value="wheat starch"/>
+                </name>
+            </SubstanceDefinition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:b80ff28e-24aa-4ef9-93cb-3665288a68c1"/>
+        <resource>
+            <ClinicalUseDefinition>
+                <id value="b80ff28e-24aa-4ef9-93cb-3665288a68c1"/>
+                <text>
+                    <status value="additional"/>
+                    <div xmlns="http://www.w3.org/1999/xhtml">recommended for the short-term treatment of mild to moderate pain such as headache and menstrual pain</div>
+                </text>
+                <type value="indication"/>
+                <subject>
+                    <reference value="MedicinalProductDefinition/e444e91d-cdbb-4028-acd9-27c4eed4bb13"/>
+                </subject>
+                <indication>
+                    <diseaseSymptomProcedure>
+                        <concept>
+                            <coding>
+                                <system value="http://hl7.org/fhir/sid/icd-10"/>
+                                <code value="A00.0A"/>
+                                <display value="ICD-10 Term"/>
+                            </coding>
+                        </concept>
+                    </diseaseSymptomProcedure>
+                </indication>
+                <population>
+                    <reference value="Group/3caacc98-cdd2-4f52-85d0-6f18d1fa54b0"/>
+                </population>
+            </ClinicalUseDefinition>
+        </resource>
+    </entry>
+    <entry>
+        <fullUrl value="urn:uuid:3caacc98-cdd2-4f52-85d0-6f18d1fa54b0"/>
+        <resource>
+            <Group>
+                <id value="3caacc98-cdd2-4f52-85d0-6f18d1fa54b0"/>
+                <type value="person"/>
+                <membership value="definitional"/>
+                <characteristic>
+                    <code>
+                        <coding>
+                            <system value="http://snomed.info/sct"/>
+                            <code value="424144002"/>
+                            <display value="Current chronological age"/>
+                        </coding>
+                    </code>
+                    <valueRange>
+                        <low>
+                            <value value="12"/>
+                            <unit value="year"/>
+                            <system value="http://unitsofmeasure.org"/>
+                            <code value="a"/>
+                        </low>
+                    </valueRange>
+                    <exclude value="false"/>
+                </characteristic>
+            </Group>
+        </resource>
+    </entry>
+</Bundle>
