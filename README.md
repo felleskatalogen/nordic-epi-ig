@@ -8,13 +8,13 @@ The result of the latest successful build is available on [https://build.fhir.or
 
 The IG Publisher needs the following to be installed:
 
-   * Java 11 or 17
+   * Java 11 or later
    * Ruby
    * The Jekyll gem
 
 ## Build instructions
 
-1. Run `_updatePublisher.sh` to update the scripts locally and download the latest IG Publisher JAR
+1. Run `_updatePublisher.sh` to update the scripts locally and download the IG Publisher JAR
 1. Run `_genonce.sh` to build the implementation guides
 
 Check the output for any errors. 
