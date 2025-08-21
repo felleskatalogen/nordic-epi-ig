@@ -280,6 +280,51 @@
         </designation>
     </concept>
     <concept>
+        <code value="200000029822"/>
+        <designation>
+            <language value="en"/>
+            <value value="5.1 Pharmacodynamic properties"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="5.1 Farmakodynamiske egenskaper"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="5.1 Farmakodynamiska egenskaper"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029827"/>
+        <designation>
+            <language value="en"/>
+            <value value="5.2 Pharmacokinetic properties"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="5.2 Farmakokinetiske egenskaper"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="5.2 Farmakokinetiska egenskaper"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029834"/>
+        <designation>
+            <language value="en"/>
+            <value value="5.3 Preclinical safety data"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="5.3 Prekliniske sikkerhetsdata"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="5.3 Prekliniska säkerhetsuppgifter"/>
+        </designation>
+    </concept>
+    <concept>
         <code value="200000029836"/>
         <designation>
             <language value="en"/>
@@ -292,6 +337,96 @@
         <designation>
             <language value="sv"/>
             <value value="6. FARMACEUTISKA UPPGIFTER"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029837"/>
+        <designation>
+            <language value="en"/>
+            <value value="6.1 List of excipients"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="6.1 Hjelpestoffer"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="6.1 Förteckning över hjälpämnen"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029838"/>
+        <designation>
+            <language value="en"/>
+            <value value="6.2 Incompatibilities"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="6.2 Uforlikeligheter"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="6.2 Inkompatibiliteter"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029839"/>
+        <designation>
+            <language value="en"/>
+            <value value="6.3 Shelf life"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="6.3 Holdbarhet"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="6.3 Hållbarhet"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029840"/>
+        <designation>
+            <language value="en"/>
+            <value value="6.4 Special precautions for storage"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="6.4 Oppbevaringsbetingelser"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="6.4 Särskilda förvaringsanvisningar"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029841"/>
+        <designation>
+            <language value="en"/>
+            <value value="6.5 Nature and contents of container &lt;and special equipment for use, administration or implantation&gt;"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="6.5 Emballasje (type og innhold) &lt;og spesielt utstyr for bruk, administrering eller implantasjon&gt;"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="6.5 Förpackningstyp och innehåll &lt;och utrustning för användning, administrering eller implantation&gt;"/>
+        </designation>
+    </concept>
+    <concept>
+        <code value="200000029842"/>
+        <designation>
+            <language value="en"/>
+            <value value="6.6 Special precautions for disposal &lt;and other handling&gt;"/>
+        </designation>
+        <designation>
+            <language value="no"/>
+            <value value="6.6 Spesielle forholdsregler for destruksjon &lt;og annen håndtering&gt;"/>
+        </designation>
+        <designation>
+            <language value="sv"/>
+            <value value="6.6 Särskilda anvisningar för destruktion &lt;och övrig hantering&gt;"/>
         </designation>
     </concept>
     <concept>
