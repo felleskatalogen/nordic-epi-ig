@@ -9,7 +9,7 @@
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Composition"/>
-    <baseDefinition value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+    <baseDefinition value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/composition-epi-type1"/>
     <derivation value="constraint"/>
     <differential>
 
@@ -27,23 +27,8 @@
         <!-- Level 0 Slicing -->
         <element id="Composition.section">
             <path value="Composition.section"/>
-            <slicing>
-                <discriminator>
-                    <type value="value"/>
-                    <path value="code"/>
-                </discriminator>
-                <rules value="closed"/>
-            </slicing>
         </element>
-
-        <!-- Level 0 Section QRD Package Leaflet -->
-        <element id="Composition.section:sectionPackageLeaflet">
-            <path value="Composition.section"/>
-            <sliceName value="sectionPackageLeaflet"/>
-            <min value="1"/>
-            <max value="1"/>
-        </element>
-        <element id="Composition.section:sectionPackageLeaflet.code">
+        <element id="Composition.section.code">
             <path value="Composition.section.code"/>
             <patternCodeableConcept>
                 <coding>
